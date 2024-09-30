@@ -1,0 +1,105 @@
+.website-body{
+    margin: 0%; /* Im unsure if this is the best approach but so far it's the one I have*/
+    background-color: tan;
+}
+
+.navbar{
+    display: flex;
+    justify-content: left;    /* center the DIV*/
+    align-items: center;
+    
+    background-color: gray;
+    height: 80px;
+    width: 100%; /* a good start to my navbar, */
+    margin: 0%;
+}
+
+.navbar div{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: aliceblue;
+}
+
+.navabr div p:hover{
+    color: blue;
+}
+
+.navbar div a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar div a:hover{
+    color: blue;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+}
+.campus-image{
+    width: 100%;
+    height:100%
+}
+
+.intoduction-section{
+    width: 100%;
+    height: 800px;
+    background-color: tan;
+    display: flex;
+    
+}
+
+.headshot{
+    width: 30%;
+    /*border-style: dashed;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headshot-photo{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    width: 60%;
+    height:80%;
+}
+
+.hello-text{
+    width:70%;
+    /*border-style: dashed;*/
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hello-header-container{
+    /*border-style: dashed;*/
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.hello-header{
+    font-size: 70px;
+    color: aliceblue;
+    margin-bottom: 0;
+}
+
+.description{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.elevator-pitch-container{
+    /*border-style: solid;*/
+    height: 70%;
+}
+
+.elevator-pitch-container p{
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 0;
+}
