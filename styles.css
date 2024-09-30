@@ -3,6 +3,12 @@
     background-color: tan;
 }
 
+.resume-container{ /*TODO: Resize Resume and add a navbar back to other parts of the website*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .navbar{
     display: flex;
     justify-content: left;    /* center the DIV*/
