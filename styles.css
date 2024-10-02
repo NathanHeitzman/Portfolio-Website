@@ -1,14 +1,8 @@
 .website-body{
     margin: 0%; /* Im unsure if this is the best approach but so far it's the one I have*/
-    background-color: tan;
+    background-color: #1a2238;
 }
-
-.resume-container{ /*TODO: Resize Resume and add a navbar back to other parts of the website*/
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-
+/************************* NAVBAR ******************************/
 .navbar{
     display: flex;
     justify-content: left;    /* center the DIV*/
@@ -19,17 +13,11 @@
     width: 100%; /* a good start to my navbar, */
     margin: 0%;
 }
-
 .navbar div{
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1rem;
+    padding-right: 1rem;
     color: aliceblue;
 }
-
-.navabr div p:hover{
-    color: blue;
-}
-
 .navbar div a{
     color: aliceblue;
     text-decoration: none;
@@ -37,77 +25,111 @@
 .navbar div a:hover{
     color: blue;
 }
+/************************* NAVBAR ******************************/
 
-.banner{
+/************************* TOP IMAGE ******************************/
+.headshot-container{
     width: 100%;
-    height: 400px;
-}
-.campus-image{
-    width: 100%;
-    height:100%
-}
-
-.intoduction-section{
-    width: 100%;
-    height: 800px;
-    background-color: #1a2238;
+    margin:auto; /*put the image in the center*/
+    border-style: dashed;
     display: flex;
-    
-}
-
-.headshot{
-    width: 40%;
-    /*border-style: dashed;*/
-    display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: center;
 }
 .headshot-photo{
-    padding-top: 10%;
-    padding-bottom: 10%;
+    margin-top: 1%;
     width: 60%;
-    height:80%;
-    border-radius: 20%;
+    max-width: 750px;
+    border-radius: 100%;
 }
+/************************* TOP IMAGE ******************************/
 
 .hello-text{
     width:70%;
-    /*border-style: dashed;*/
+    border-style: dashed;
     display: flex;
     flex-direction: column;
-    padding-right: 2%;
-    
+    margin: auto;  
 }
 
 .hello-header-container{
     /*border-style: dashed;*/
-    width: 100%;
-    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     
 }
 .hello-header{
-    font-size: 70px;
+    font-size: 6rem;
     color: aliceblue;
-    margin-bottom: 0%;
+    margin: auto;
 }
 
 .description{
     color: aliceblue;
-    font-size: 30px;
-    margin-top: 0;
-    margin-bottom: 0;
+    font-size: 4rem;
+    margin: auto;
 }
 
 .elevator-pitch-container{
-    /*border-style: solid;*/
-    height: 70%;
+    color: aliceblue;
+    font-size: 2.3rem;
+    margin:2rem;
 }
 
-.elevator-pitch-container p{
+/* ********************RESUME SECTION CODE***************************/
+
+.resume-container{ /*TODO: Resize Resume and add a navbar back to other parts of the website*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ********************RESUME SECTION CODE***************************/
+
+.about-me-container{
+    display: flex;
     color: aliceblue;
-    font-size: 30px;
-    margin-top: 0;
+    justify-content: center;
+    border-style: dashed;
+    font-size: 2rem;
+}
+.below-container div{
+    color: red;
+    border-style: dashed;
+}
+
+@media (max-width:2292px) {
+    .hello-header{
+        font-size: 5.5rem;
+    }
+    .description{
+        font-size: 3rem;
+        color: aquamarine;
+    }
+}
+
+@media(max-width:1723px){
+    .hello-header{
+        font-size: 5rem;
+    }
+    .description{
+        font-size: 2.5rem;
+        color: aliceblue;
+    }
+}
+
+@media(max-width:1440px){
+    .hello-header{
+        font-size: 4.5rem;
+    }
+    .description{
+        font-size: 2.2rem;
+        color: aliceblue;
+    }
+}
+
+@media(max-width:750){
+    .headshot-photo{
+        width:30%;
+    }
 }
