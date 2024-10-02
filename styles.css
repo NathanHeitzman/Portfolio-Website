@@ -9,7 +9,7 @@
     align-items: center;
     
     background-color: gray;
-    height: 80px;
+    height: 5rem;
     width: 100%; /* a good start to my navbar, */
     margin: 0%;
 }
@@ -29,23 +29,37 @@
 
 /************************* TOP IMAGE ******************************/
 .headshot-container{
-    width: 100%;
-    margin:auto; /*put the image in the center*/
     border-style: dashed;
+    border-color: red;
+    width:50vw;
+    
     display: flex;
-    align-items: end;
     justify-content: center;
 }
 .headshot-photo{
     margin-top: 1%;
     width: 60%;
     max-width: 750px;
+    min-width: 200px;
     border-radius: 100%;
+    object-fit: contain;
 }
 /************************* TOP IMAGE ******************************/
+.front-banner-container{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    flex-direction: row;
+    
+    margin: auto;
+
+    border-style: dashed;
+    border-color: blue;
+}
+
 
 .hello-text{
-    width:70%;
+    width:100%;
     border-style: dashed;
     display: flex;
     flex-direction: column;
@@ -57,7 +71,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
 }
 .hello-header{
     font-size: 6rem;
@@ -98,38 +111,84 @@
     border-style: dashed;
 }
 
+
+
+
+
 @media (max-width:2292px) {
     .hello-header{
         font-size: 5.5rem;
     }
     .description{
         font-size: 3rem;
-        color: aquamarine;
     }
 }
 
-@media(max-width:1723px){
+@media(max-width:1834px){
     .hello-header{
         font-size: 5rem;
     }
     .description{
         font-size: 2.5rem;
-        color: aliceblue;
     }
 }
 
-@media(max-width:1440px){
+@media(max-width:1533px){
     .hello-header{
-        font-size: 4.5rem;
+        font-size: 4rem;
     }
     .description{
-        font-size: 2.2rem;
+        font-size: 2rem;
         color: aliceblue;
     }
 }
 
-@media(max-width:750){
+@media(max-width: 1237px){
+    .headshot-photo-container{
+        width: 30vw;
+    }
+    .hello-header{
+        font-size: 2.5rem;
+    }
+    .description{
+
+    }
+}
+
+@media(max-width:780px){
+    .hello-header{
+        font-size: 2rem;
+    }
+    .description{
+        font-size{
+            font-size:1rem;
+        }
+    }
+    
     .headshot-photo{
         width:30%;
+    }
+}
+
+@media(max-width:780px){
+    .front-banner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .hello-header{
+        font-size: 2rem;
+    }
+    .description{
+        font-size:1.5rem;
+    }
+    
+}
+
+@media(max-width:440px){ /*This should cover most phones, design starts crashing at approximately 320 pixels*/
+    .hello-header{
+        font-size: 1.5rem;
+    }
+    .description{
+        font-size:1.2rem;
     }
 }
