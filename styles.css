@@ -1,7 +1,18 @@
+/************************* MAIN BODY CODE ******************************/
+
+:root{ /*Storing variables here*/
+    --text-size-small: 1.2rem;
+    --text-size-medium: 1.5rem;
+    --text-size-large: 2rem;    
+}
+
 .website-body{
     margin: 0%; /* Im unsure if this is the best approach but so far it's the one I have*/
     background-color: #1a2238;
 }
+
+/************************* MAIN BODY CODE END ******************************/
+
 /************************* NAVBAR ******************************/
 .navbar{
     display: flex;
@@ -25,7 +36,7 @@
 .navbar div a:hover{
     color: blue;
 }
-/************************* NAVBAR ******************************/
+/************************* NAVBAR END ******************************/
 
 /************************* TOP IMAGE ******************************/
 .headshot-container{
@@ -44,7 +55,7 @@
     border-radius: 100%;
     object-fit: contain;
 }
-/************************* TOP IMAGE ******************************/
+
 .front-banner-container{
     display: flex;
     align-items: end;
@@ -56,8 +67,9 @@
     border-style: dashed;
     border-color: blue;
 }
+/************************* TOP IMAGE END ******************************/
 
-
+/************************* HEADERS ******************************/
 .hello-text{
     width:100%;
     border-style: dashed;
@@ -84,11 +96,57 @@
     margin: auto;
 }
 
+/************************* HEADERS END ******************************/
+
+/************************* MAIN DESCRIPTION ******************************/
 .elevator-pitch-container{
     color: aliceblue;
-    font-size: 2.3rem;
+    font-size: var(--text-size-large);
     margin:2rem;
 }
+/************************* MAIN DESCRIPTION END ******************************/
+
+/************************* PROJECT CONTAINERS ******************************/
+.projects-container{
+    border-color: red;
+    border-style: dashed;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.project1{
+    border-color: blue;
+    border-style: dashed;
+    
+    display: flex;
+    align-items: center;
+}
+.project1 p{
+    font-size: var(--text-size-medium);
+    color: aliceblue;
+    padding-left: 1%;
+}
+
+.project2{
+    border-color: blue;
+    border-style: dashed;
+
+    display: flex;
+    align-items: center;
+}
+.project2 p{
+    font-size: var(--text-size-medium);
+    color: aliceblue;
+    padding-left: 1%;
+}
+
+/************************* PROJECT CONTAINERS END ******************************/
+
+
+
+
 
 /* ********************RESUME SECTION CODE***************************/
 
@@ -97,7 +155,7 @@
     align-items: center;
     justify-content: center;
 }
-/* ********************RESUME SECTION CODE***************************/
+/* ********************RESUME SECTION CODE END***************************/
 
 .about-me-container{
     display: flex;
@@ -106,14 +164,9 @@
     border-style: dashed;
     font-size: 2rem;
 }
-.below-container div{
-    color: red;
-    border-style: dashed;
-}
 
 
-
-
+/********************* MEDIA TAGS ***************************/
 
 @media (max-width:2292px) {
     .hello-header{
@@ -139,7 +192,9 @@
     }
     .description{
         font-size: 2rem;
-        color: aliceblue;
+    }
+    .elevator-pitch-container p{
+        font-size: var(--text-size-medium);
     }
 }
 
@@ -163,6 +218,10 @@
         font-size{
             font-size:1rem;
         }
+    }
+
+    .elevator-pitch-container p{
+        font-size: var(--text-size-small);
     }
     
     .headshot-photo{
@@ -192,3 +251,4 @@
         font-size:1.2rem;
     }
 }
+/********************* MEDIA TAGS END ***************************/
