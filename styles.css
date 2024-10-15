@@ -1,13 +1,32 @@
 /************************* MAIN BODY CODE ******************************/
 
 :root{ /*Storing variables here*/
-    --text-size-small: 1.2rem;
+    --text-size-XXsmall:0.9rem;
+    --text-size-Xsmall:1rem;
+    --text-size-small: 1.2rem; /*Variables for regular text in the website*/
     --text-size-medium: 1.5rem;
-    --text-size-large: 2rem;    
+    --text-size-large: 2rem;
+
+    --header1-size-XXsmall:1.5rem; /*Variables for my biggest headers*/
+    --header1-size-Xsmall:2rem;
+    --header1-size-small:2.5rem;
+    --header1-size-medium:4rem;
+    --header1-size-large:5rem;
+    --header1-size-Xlarge:5.5rem;
+
+    --header3-size-Xsmall:1.2rem; /*Variables for sub-headers*/
+    --header3-size-small:1.5rem;
+    --header3-size-medium:2rem;
+    --header3-size-large:2.5rem;
+    --header3-size-Xlarge:3rem;
+}
+
+html {
+    font-size: 100%; /* Default is 16px, 100% = 16px */
 }
 
 .website-body{
-    margin: 0%; /* Im unsure if this is the best approach but so far it's the one I have*/
+    margin: 0%; 
     background-color: #1a2238;
 }
 
@@ -32,6 +51,7 @@
 .navbar div a{
     color: aliceblue;
     text-decoration: none;
+    font-size: var(--text-size-small);
 }
 .navbar div a:hover{
     color: blue;
@@ -40,7 +60,7 @@
 
 /************************* TOP IMAGE ******************************/
 .headshot-container{
-    border-style: dashed;
+    border-style: dashed; /*Borders for current visual aid for development*/
     border-color: red;
     width:50vw;
     
@@ -65,7 +85,7 @@
     margin: auto;
 
     border-style: dashed;
-    border-color: blue;
+    border-color: blue; /*Borders for current visual aid for development*/
 }
 /************************* TOP IMAGE END ******************************/
 
@@ -79,7 +99,7 @@
 }
 
 .hello-header-container{
-    /*border-style: dashed;*/
+    /*border-style: dashed;*/ /*Borders for current visual aid for development*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -108,12 +128,27 @@
 
 /************************* PROJECT CONTAINERS ******************************/
 .projects-container{
-    border-color: red;
+    border-color: red; /*Borders for current visual aid for development*/
     border-style: dashed;
     
     display: flex;
     flex-direction: column;
 
+}
+
+.projects-text{
+    font-size: var(--text-size-medium);
+    color: aliceblue;
+    padding-left: 1%;
+}
+
+.projects-image{
+    border-color: black;
+    border-style: dashed;
+    width:100%;
+
+    display: flex;
+    justify-content: center;
 }
 
 .project1{
@@ -123,23 +158,19 @@
     display: flex;
     align-items: center;
 }
-.project1 p{
-    font-size: var(--text-size-medium);
-    color: aliceblue;
-    padding-left: 1%;
+
+.project1-image img{
+    width: 100%;
+    height: auto;
+    min-width: 300px;
 }
 
 .project2{
     border-color: blue;
     border-style: dashed;
-
+    
     display: flex;
     align-items: center;
-}
-.project2 p{
-    font-size: var(--text-size-medium);
-    color: aliceblue;
-    padding-left: 1%;
 }
 
 /************************* PROJECT CONTAINERS END ******************************/
@@ -205,18 +236,20 @@
     .hello-header{
         font-size: 2.5rem;
     }
-    .description{
-
-    }
 }
 
 @media(max-width:780px){
+    .front-banner-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
     .hello-header{
         font-size: 2rem;
     }
     .description{
         font-size{
-            font-size:1rem;
+            font-size:1.5rem;
         }
     }
 
@@ -227,20 +260,15 @@
     .headshot-photo{
         width:30%;
     }
-}
-
-@media(max-width:780px){
-    .front-banner-container{
+    .project1{
         flex-direction: column;
-        align-items: center;
     }
-    .hello-header{
-        font-size: 2rem;
+    .projects-image{
+        order: -1; /*sets the image to come before the paragraph, that way it will be on top when the screen width is shorter*/
     }
-    .description{
-        font-size:1.5rem;
+    .navbar div a{ /*links in the navbar*/
+        font-size: var(--text-size-XXsmall);
     }
-    
 }
 
 @media(max-width:440px){ /*This should cover most phones, design starts crashing at approximately 320 pixels*/
