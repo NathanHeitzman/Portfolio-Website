@@ -8,7 +8,7 @@ interface ButtonProps {
 
 const Button = ({text, onClick}: ButtonProps) => {
     return(
-        <button>{text}</button>
+        <button className='about-btn'>{text}</button>
     )
 }
 export default Button;

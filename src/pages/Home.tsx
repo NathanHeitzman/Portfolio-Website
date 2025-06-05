@@ -2,6 +2,7 @@ import Navbar from "../components/NavBar"
 import Footer from "../components/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import HeadShot from '../assets/images/nathan2.jpg'
+import Button from '../components/Button'
 
 const Homepage = () => {
     return(
@@ -17,7 +18,7 @@ const Homepage = () => {
                 <h1 className='mb-0'>Hey there!</h1>
                 <h2>I'm <span>Nathan Heitzman</span></h2>
                 <h2>A Computer Science Student</h2>
-                <button>Lets Build Something Together!</button>
+                <Button text="Lets Build Something Together!" />
               </div>
             </div>
           </div>
