@@ -5,8 +5,11 @@ interface ButtonProps {
   text: string;
   onClick?: () => void;
 }
+function clicked() {
+  
+}
 
 const Button = ({ text }: ButtonProps) => {
-  return <button className="about-btn">{text}</button>;
+  return <button className="about-btn" onClick={clicked}>{text}</button>;
 };
 export default Button;

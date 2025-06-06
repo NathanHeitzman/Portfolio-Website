@@ -1,7 +1,6 @@
 .page-body {
-  background-color: rgb(65, 64, 64);
+  background-color: #1e1e2f;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .row {
@@ -24,11 +23,11 @@
 .page-body h1,
 .page-body h2,
 .page-body p {
-  color: aliceblue;
+  color: #ffffff;
   margin-bottom: 0px;
 }
 .page-body span {
-  color: red;
+  color: #a78bfa;
 }
 
 .my-headshot {
@@ -36,4 +35,5 @@
   height: 500px;
   object-fit: cover; /* Ensures image covers the area without distortion */
   border-radius: 50%; /* Makes it a circle */
+  box-shadow: 0 0 25px rgba(138, 43, 226, 0.4);
 }

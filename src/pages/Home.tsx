@@ -3,6 +3,7 @@ import Footer from "../components/Footer"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import HeadShot from '../assets/images/nathan2.jpg'
 import Button from '../components/Button'
+import '../assets/styles/Home.css'
 
 const Homepage = () => {
     return(
@@ -18,6 +19,7 @@ const Homepage = () => {
                 <h1 className='mb-0'>Hey there!</h1>
                 <h2>I'm <span>Nathan Heitzman</span></h2>
                 <h2>A Computer Science Student</h2>
+                <br></br>
                 <Button text="Lets Build Something Together!" />
               </div>
             </div>

@@ -1,13 +1,14 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+import "../assets/styles/Footer.css"
 const Footer = () => {
   return (
     <>
-      <div className="container my-">
-        <footer className="text-center text-lg-start border border-white mt-xl-5 pt-4">
-          <div className="container p-4">
+      <div className="container-fluid p-0">
+        <footer className="text-center text-lg-start pt-4">
+          <div className="container-fluid p-4">
             <div className="row">
               <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 className="text-uppercase mb-4">OUR WORLD</h5>
+                <h5 className="mb-4">OUR WORLD</h5>
                 <ul className="list-unstyled mb-4">
                   <li>
                     <a href="#!" className="text-white">
@@ -33,7 +34,7 @@ const Footer = () => {
               </div>
 
               <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 className="text-uppercase mb-4">Assistance</h5>
+                <h5 className="mb-4">ASSISTANCE</h5>
                 <ul className="list-unstyled">
                   <li>
                     <a href="#!" className="text-white">
@@ -56,15 +57,13 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#!" className="text-white">
-                      Payment
-                    </a>
+
                   </li>
                 </ul>
               </div>
 
               <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 className="text-uppercase mb-4">Careers</h5>
+                <h5 className="mb-4">CAREERS</h5>
                 <ul className="list-unstyled">
                   <li>
                     <a href="#!" className="text-white">
@@ -76,7 +75,7 @@ const Footer = () => {
 
               <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
                 <h5 className="text-uppercase mb-4">
-                  Sign up to our newsletter
+                  Send me an email
                 </h5>
                 <div className="form-outline form-white mb-4">
                   <input
@@ -99,10 +98,7 @@ const Footer = () => {
           </div>
 
           <div className="text-center p-3 border-top border-white">
-            © 2020 Copyright:
-            <a className="text-white" href="https://mdbootstrap.com/">
-              MDBootstrap.com
-            </a>
+            © {new Date().getFullYear()} Nathan Heitzman. All rights reserved
           </div>
         </footer>
       </div>
