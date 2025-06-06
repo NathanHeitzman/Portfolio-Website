@@ -7,7 +7,7 @@ const ContactMe = () => {
   return (
     <>
       <Navbar />
-
+      <h1>CONTACT ME</h1>
       <Footer />
     </>
   );
