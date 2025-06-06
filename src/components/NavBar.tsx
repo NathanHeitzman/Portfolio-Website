@@ -2,13 +2,14 @@ import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import 'bootstrap-icons/font/bootstrap-icons.css';
+import "../assets/styles/NavBar.css"
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-md bg-body-tertiary">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-md bg-body-tertiary py-0">
+        <div className="navbar container-fluid ">
           <Link className="navbar-brand" to="/">
-            <i className="bi bi-house"></i> 
+            <i className="bi bi-house px-2"></i> 
           </Link>
           <button
             className="navbar-toggler" //enables the "hamburger icon" to open navbar for smaller screens
@@ -25,12 +26,12 @@ const Navbar = () => {
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <li className="nav-item">
+              <li className="nav-item px-2">
                 <Link className="nav-link active" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
-              <li className="nav-item">
+              <li className="nav-item px-2">
                 <Link className="nav-link" to="/contact-me">
                   Contact
                 </Link>
