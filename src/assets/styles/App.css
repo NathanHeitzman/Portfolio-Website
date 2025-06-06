@@ -1,39 +1,39 @@
 .page-body {
-    background-color: rgb(65, 64, 64);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+  background-color: rgb(65, 64, 64);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .row {
-    align-items: center;
+  align-items: center;
 
-    border-style: dashed;
-    border-color: red;
-    height:100%;
+  border-style: dashed;
+  border-color: red;
+  height: 100%;
 }
 
 .text-column {
-    max-width: 600px;
-    color: white;
-    text-align: left;
-    
-    border-color:blue;
-    border-style: dashed;
+  max-width: 600px;
+  color: white;
+  text-align: left;
+
+  border-color: blue;
+  border-style: dashed;
 }
 
-.page-body h1, 
+.page-body h1,
 .page-body h2,
-.page-body p{
-    color: aliceblue;
-    margin-bottom: 0px;
+.page-body p {
+  color: aliceblue;
+  margin-bottom: 0px;
 }
-.page-body span{
-    color: red;
+.page-body span {
+  color: red;
 }
 
 .my-headshot {
-    width:500px;
-    height:500px;
-    object-fit: cover; /* Ensures image covers the area without distortion */
-    border-radius: 50%; /* Makes it a circle */
+  width: 500px;
+  height: 500px;
+  object-fit: cover; /* Ensures image covers the area without distortion */
+  border-radius: 50%; /* Makes it a circle */
 }
