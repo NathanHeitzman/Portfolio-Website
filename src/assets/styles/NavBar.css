@@ -7,3 +7,10 @@
     color: #dcdcdc;
 }
 
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar-toggler-icon{
+    filter:invert(1); /*makes the hamburger icon white*/
+}

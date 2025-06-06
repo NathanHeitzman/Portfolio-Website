@@ -12,7 +12,7 @@ const Navbar = () => {
             <i className="bi bi-house px-2"></i> 
           </Link>
           <button
-            className="navbar-toggler" //enables the "hamburger icon" to open navbar for smaller screens
+            className="navbar-toggler me-3" //enables the "hamburger icon" to open navbar for smaller screens
             type="button"
             data-bs-toggle="collapse" //clicking should toggle something collapsible
             data-bs-target="#navbarSupportedContent" //target the nav links to toggle
