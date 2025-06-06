@@ -1,14 +1,14 @@
 .page-body {
   background-color: #1e1e2f;
   padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #ffffff;
 }
 
 .row {
   align-items: center;
-
-  border-style: dashed;
-  border-color: red;
-  height: 100%;
+  /*border-style: dashed;
+  border-color: red;*/
 }
 
 .text-column {
@@ -16,8 +16,8 @@
   color: white;
   text-align: left;
 
-  border-color: blue;
-  border-style: dashed;
+  /*border-color: blue;
+  border-style: dashed;*/
 }
 
 .page-body h1,
@@ -36,4 +36,12 @@
   object-fit: cover; /* Ensures image covers the area without distortion */
   border-radius: 50%; /* Makes it a circle */
   box-shadow: 0 0 25px rgba(138, 43, 226, 0.4);
+}
+
+.gradient-name {
+  background: linear-gradient(135deg, #7b68ee, #9481cc); /*gradiant goes left -> right, gets lighter*/
+  -webkit-background-clip: text; /*can only see the background colors on the text*/
+  background-clip: text; /* Standard property for compatibility */
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
