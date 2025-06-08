@@ -1,17 +1,26 @@
-.contactMe-page {
-    background-color: #1e1e2f;
+body {
+  background-color: #1e1e2f; /* match your page background */
 }
 
 .reasons-text {
+    font-size: xx-large;
     background-color: #2C2C40;
+    padding:10px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    border-radius: 20px;
 }
 
 .reasons-image {
-    width: 800px;
-    height: 500px;
-
+    max-width:100%;
+    height:auto; /*preserve aspect ratio when resizing page*/
     border: 5px solid black;
     border-radius: 20px;
+
+    display: block; /*center the image horizontally*/
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .contact-list-item, p {
@@ -19,11 +28,35 @@
 }
 
 .inputs-container {
+    flex-grow: 1;
     background-color: #2C2C40;
-    border: 2px solid red;
+
+    margin-top: 2rem;
+    padding:2rem;
+    gap: 2rem;
+
+    border-radius: 20px;
 }
 
+.inner-input-container {
+    width: 50%;
+    align-items: center;
+    gap:1.5rem;
+
+    border:2px solid red;
+}
 .user-input {
-    
+    width:100%;
+    height:40px;
+}
+
+.user-comments-input {
+    width: 100%;
+    height:140px;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
 }
 
