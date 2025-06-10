@@ -5,7 +5,7 @@ const Projects = () => {
     return(
         <>
         <Navbar />
-
+            <h1>MY PROJECTS</h1>
         <Footer />
         </>
     )
