@@ -71,3 +71,13 @@
   font-size: xx-large;
   padding: 5px;
 }
+
+.social-icons a{
+  color: #ffffff;
+}
+
+.social-icons a:hover {
+  color:gray;
+}
+
+
