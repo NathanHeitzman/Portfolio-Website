@@ -10,8 +10,8 @@
 
 .row {
   align-items: center;
-  /*border-style: dashed;
-  border-color: red;*/
+  border-style: dashed;
+  border-color: red;
 }
 
 .text-column {
@@ -50,6 +50,19 @@
 }
 
 .icon-image {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
+
+  margin: 10px;
+  background-color: #2C2C40;
+  border-radius: 10px;
+  padding:10px;
+}
+
+.icon-image:hover {
+  transform: scale(1.05);
+}
+
+.tech-skills {
+  border: 2px solid red;
 }

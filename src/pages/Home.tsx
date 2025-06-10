@@ -41,11 +41,9 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="tech-skills page-body d-flex justify-content-center align-items-center">
-        {" "}
-        test
-        <div className="row w-100 container">
-          <div className="icons col-sm-4 col-lg-8 col-xxl-12">
+      <div className="tech-skills page-body d-flex flex-column justify-content-center">
+        <h1 className="skills-header align-self-center mb-2">I have hands-on experience with:</h1>
+        <div className="container">
             <img className="icon-image" src={Icon1} alt="" />
             <img className="icon-image" src={Icon2} alt="" />
             <img className="icon-image" src={Icon3} alt="" />
@@ -58,7 +56,6 @@ const Homepage = () => {
             <img className="icon-image" src={Icon10} alt="" />
             <img className="icon-image" src={Icon11} alt="" />
             <img className="icon-image" src={Icon12} alt="" />
-          </div>
         </div>
       </div>
       <Footer />
