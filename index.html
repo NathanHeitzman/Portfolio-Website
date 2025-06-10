@@ -5,7 +5,20 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nathan Heitzman Portfolio</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () { //code to set up email functionality with EmailJS
+        emailjs.init({
+          publicKey: "YOUR_PUBLIC_KEY",
+          blockHeadless: true, //block headless browsers to prevent bot spam
+        });
+      })();
+    </script>
   </head>
+  
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>

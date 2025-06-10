@@ -26,7 +26,7 @@ const ContactMe = () => {
               <input
                 className="user-input"
                 placeholder="Phone Number:"
-                type="number"
+                type="text"
               />
               <input 
               className="user-input"
@@ -38,8 +38,8 @@ const ContactMe = () => {
                 placeholder="Comments:"
                 type="text"
               />
-              <div className="button-container d-flex justify-content-center justify-content-md-end">
-                <Button className="submit-button align-self-end py-2 px-4 text-lg" text="Submit" />
+              <div className="button-container d-flex justify-content-center justify-content-lg-end">
+                <Button className="submit-button align-self-end py-2 px-4" text="Submit" />
               </div>
             </div>
           </div>

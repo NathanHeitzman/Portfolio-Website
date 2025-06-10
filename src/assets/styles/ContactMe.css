@@ -35,7 +35,6 @@ body {
     padding:2rem;
     gap: 2rem;
 
-    border: 2px solid blue;
     border-radius: 20px;
 }
 
@@ -43,8 +42,6 @@ body {
     width: 75%;
     align-items: center;
     gap:1.5rem;
-
-    border:2px solid red;
 }
 .user-input {
     width:100%;
@@ -62,13 +59,12 @@ body {
 }
 
 .button-container{
-    border: 2px solid yellow;
     width: 100%;
 }
 
 .submit-button{
     font-size: 2rem;
-    width:210px;
-    height:70px;
+    width:180px;
+    height:60px;
 }
 
