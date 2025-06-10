@@ -17,7 +17,7 @@ function clicked(text: string, navigate: NavigateFunction) {
   }
 }
 
-const Button = ({ text, className }: ButtonProps) => {
+const Button = ({ text,  className }: ButtonProps) => {
   const navigate = useNavigate();
   return (
     <button
