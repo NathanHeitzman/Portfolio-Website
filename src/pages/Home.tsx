@@ -37,25 +37,40 @@ const Homepage = () => {
             <h2>A Computer Science Student</h2>
             <br></br>
             <Button text="Lets Build Something Together!" />
+            <div className="social-icons">
+                <a href="https://www.linkedin.com/in/nathaniel-heitzman/">
+                  <i className="bi bi-linkedin"></i>
+                </a>
+                <a href="https://github.com/NathanHeitzman">
+                  <i className="bi bi-github"></i>
+                </a>
+            </div>
           </div>
         </div>
       </div>
 
       <div className="tech-skills page-body d-flex flex-column justify-content-center">
-        <h1 className="skills-header align-self-center mb-2">I have hands-on experience with:</h1>
+        <h1 className="skills-header align-self-center mb-2">
+          I have hands-on experience with:
+        </h1>
         <div className="container">
-            <img className="icon-image" src={Icon1} alt="" />
-            <img className="icon-image" src={Icon2} alt="" />
-            <img className="icon-image" src={Icon3} alt="" />
-            <img className="icon-image" src={Icon4} alt="" />
-            <img className="icon-image" src={Icon5} alt="" />
-            <img className="icon-image" src={Icon6} alt="" />
-            <img className="icon-image" src={Icon7} alt="" />
-            <img className="icon-image" src={Icon8} alt="" />
-            <img className="icon-image" src={Icon9} alt="" />
-            <img className="icon-image" src={Icon10} alt="" />
-            <img className="icon-image" src={Icon11} alt="" />
-            <img className="icon-image" src={Icon12} alt="" />
+          <img
+            className="icon-image"
+            src={Icon1}
+            alt=""
+            onClick={() => iconClicked("typescript")}
+          />
+          <img className="icon-image" src={Icon2} alt="" />
+          <img className="icon-image" src={Icon3} alt="" />
+          <img className="icon-image" src={Icon4} alt="" />
+          <img className="icon-image" src={Icon5} alt="" />
+          <img className="icon-image" src={Icon6} alt="" />
+          <img className="icon-image" src={Icon7} alt="" />
+          <img className="icon-image" src={Icon8} alt="" />
+          <img className="icon-image" src={Icon9} alt="" />
+          <img className="icon-image" src={Icon10} alt="" />
+          <img className="icon-image" src={Icon11} alt="" />
+          <img className="icon-image" src={Icon12} alt="" />
         </div>
       </div>
       <Footer />
@@ -63,3 +78,10 @@ const Homepage = () => {
   );
 };
 export default Homepage;
+
+function iconClicked(text: string) {
+  console.log("clicked!");
+  if (text === "typescript") {
+    console.log("typing");
+  }
+}

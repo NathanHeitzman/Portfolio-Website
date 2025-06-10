@@ -53,7 +53,7 @@
   width: 100px;
   height: 100px;
 
-  margin: 10px;
+  margin: 8px;
   background-color: #2C2C40;
   border-radius: 10px;
   padding:10px;
@@ -65,4 +65,9 @@
 
 .tech-skills {
   border: 2px solid red;
+}
+
+.social-icons i{
+  font-size: xx-large;
+  padding: 5px;
 }
