@@ -18,6 +18,16 @@ import Icon9 from "../assets/images/icons/excel.png";
 import Icon10 from "../assets/images/icons/css.png";
 import Icon11 from "../assets/images/icons/c.png";
 import Icon12 from "../assets/images/icons/bootstrap.png";
+import Icon13 from "../assets/images/icons/figma.png"
+import Icon14 from "../assets/images/icons/word.png"
+import Icon15 from "../assets/images/icons/powerpoint.png"
+import Icon16 from "../assets/images/icons/docker.png"
+import Icon17 from "../assets/images/icons/teams.png"
+import Icon18 from "../assets/images/icons/ubuntu.png"
+import Icon19 from "../assets/images/icons/windows.png"
+import Icon20 from "../assets/images/icons/sql.png"
+
+
 
 const Homepage = () => {
   return (
@@ -71,6 +81,14 @@ const Homepage = () => {
           <img className="icon-image" src={Icon10} alt="" />
           <img className="icon-image" src={Icon11} alt="" />
           <img className="icon-image" src={Icon12} alt="" />
+          <img className="icon-image" src={Icon13} alt="" />
+          <img className="icon-image" src={Icon14} alt="" />
+          <img className="icon-image" src={Icon15} alt="" />
+          <img className="icon-image" src={Icon16} alt="" />
+          <img className="icon-image" src={Icon17} alt="" />
+          <img className="icon-image" src={Icon18} alt="" />
+          <img className="icon-image" src={Icon19} alt="" />
+          <img className="icon-image" src={Icon20} alt="" />
         </div>
       </div>
       <Footer />
