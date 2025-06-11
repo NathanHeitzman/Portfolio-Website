@@ -80,4 +80,17 @@
   color:gray;
 }
 
+@media (max-width:1400px){
+  .icon-image{
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media(max-width:1200px){
+  .icon-image{
+    width: 100px;
+    height:100px;
+  }
+}
 
