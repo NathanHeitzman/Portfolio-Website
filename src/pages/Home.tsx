@@ -26,6 +26,10 @@ import Icon17 from "../assets/images/icons/teams.png";
 import Icon18 from "../assets/images/icons/ubuntu.png";
 import Icon19 from "../assets/images/icons/windows.png";
 import Icon20 from "../assets/images/icons/sql.png";
+//R
+//Power BI
+//Selenium
+//API's
 
 const icons: string[] = [
   Icon1,
