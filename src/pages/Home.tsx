@@ -26,7 +26,11 @@ import Icon17 from "../assets/images/icons/teams.png";
 import Icon18 from "../assets/images/icons/ubuntu.png";
 import Icon19 from "../assets/images/icons/windows.png";
 import Icon20 from "../assets/images/icons/sql.png";
-//R
+import Icon21 from "../assets/images/icons/R_logo.png";
+import Icon22 from "../assets/images/icons/assembly.png";
+import Icon23 from "../assets/images/icons/selenium.png";
+import Icon24 from "../assets/images/icons/powerbi.png";
+
 //Power BI
 //Selenium
 //API's
@@ -52,10 +56,10 @@ const icons: string[] = [
   Icon18,
   Icon19,
   Icon20,
-  Icon20,
-  Icon20,
-  Icon20,
-  Icon20,
+  Icon21,
+  Icon22,
+  Icon23,
+  Icon24,
 ];
 
 const Homepage = () => {
