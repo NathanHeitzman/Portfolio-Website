@@ -1,0 +1,12 @@
+.projects-container {
+    border: 1px solid red;
+}
+
+.img-container {
+    margin: 2rem;
+}
+
+.project-image {
+    width: 800px;
+    height:auto;
+}
