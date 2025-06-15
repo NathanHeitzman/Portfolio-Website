@@ -3,6 +3,9 @@ import Footer from "../components/Footer";
 import Project1 from "../assets/images/project.png";
 import "../assets/styles/projects.css";
 
+import PythonIcon from "../assets/images/icons/python.png"
+import SeleniumIcon from "../assets/images/icons/selenium.png"
+
 const Projects = () => {
   return (
     <>
@@ -36,6 +39,11 @@ const Projects = () => {
             dolor at deserunt neque officiis! Deleniti, perspiciatis similique!
             Corrupti unde, molestiae quaerat doloremque dolor nesciunt quod.
           </p>
+          <div className="icon-row d-flex flex-row align-items-center">
+            <p className="px-4">Technologies Used:</p>
+            <img className="icon" src={PythonIcon}/>
+            <img className="icon" src={SeleniumIcon}/>
+          </div>
         </div>
         </div>
         <div className="img-container">
