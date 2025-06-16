@@ -8,26 +8,26 @@ const Footer = () => {
           <div className="container-fluid p-4">
             <div className="row">
               <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                <h5 className="mb-4">OUR WORLD</h5>
+                <h5 className="mb-4">QUALIFICATIONS</h5>
                 <ul className="list-unstyled mb-4">
                   <li>
-                    <a href="#!" className="text-white">
-                      About us
+                    <a href="/projects" className="text-white">
+                      My Projects
                     </a>
                   </li>
                   <li>
                     <a href="#!" className="text-white">
-                      Collections
+                      Project Descriptions
                     </a>
                   </li>
                   <li>
                     <a href="#!" className="text-white">
-                      Environmental philosophy
+                      Course Work
                     </a>
                   </li>
                   <li>
                     <a href="#!" className="text-white">
-                      Artist collaborations
+                      About Me
                     </a>
                   </li>
                 </ul>
@@ -38,22 +38,22 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <a href="#!" className="text-white">
-                      Contact us
+                      Contact Me
                     </a>
                   </li>
                   <li>
                     <a href="#!" className="text-white">
-                      Size Guide
+                      FAQ's
                     </a>
                   </li>
                   <li>
                     <a href="#!" className="text-white">
-                      Shipping Information
+                      Tech Stacks
                     </a>
                   </li>
                   <li>
                     <a href="#!" className="text-white">
-                      Returns & Exchanges
+                      About This Website
                     </a>
                   </li>
                   <li>
@@ -67,7 +67,22 @@ const Footer = () => {
                 <ul className="list-unstyled">
                   <li>
                     <a href="#!" className="text-white">
-                      Jobs
+                      My Career Interests
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="text-white">
+                      Work Experience
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="text-white">
+                      Volunteering
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#!" className="text-white">
+                      Download my Resume
                     </a>
                   </li>
                 </ul>
