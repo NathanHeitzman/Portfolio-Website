@@ -10,8 +10,7 @@
 
 .row {
   align-items: center;
-  border-style: dashed;
-  border-color: red;
+  /*border: 1px dashed red;*/
 }
 
 .text-column {
@@ -64,7 +63,7 @@
 }
 
 .tech-skills {
-  border: 2px solid red;
+  /*border: 2px solid red;*/
 }
 
 .social-icons i{
