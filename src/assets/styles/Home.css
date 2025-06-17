@@ -4,8 +4,7 @@
   background-image: url("../images/layered-waves-haikei.svg");
   background-repeat: no-repeat;
   padding-top: 2rem;
-  padding-bottom: 2rem;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #a78bfa;
 }
 
 .row {
@@ -62,10 +61,6 @@
   transform: scale(1.05);
 }
 
-.tech-skills {
-  /*border: 2px solid red;*/
-}
-
 .social-icons i{
   font-size: xx-large;
   padding: 5px;
@@ -79,10 +74,23 @@
   color:gray;
 }
 
+.featured-project-image {
+  width: 400px;
+  height: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
 @media (max-width:1400px){
   .icon-image{
     width: 90px;
     height: 90px;
+  }
+
+  .featured-project-image{
+    width: 350px;
   }
 }
 
@@ -90,6 +98,9 @@
   .icon-image{
     width: 100px;
     height:100px;
+  }
+  .featured-project-image {
+    width:500px;
   }
 }
 

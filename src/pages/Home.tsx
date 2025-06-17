@@ -5,9 +5,10 @@ import HeadShot from "../assets/images/nathan2.jpg";
 import Button from "../components/Button";
 import "../assets/styles/Home.css";
 
+import SongScraping from "../assets/images/song_scraping.png"
+import PaymentConfirmation from "../assets/images/paymentconfirmation.png"
+
 //Icons
-
-
 import Icon1 from "../assets/images/icons/python.png";
 import Icon2 from "../assets/images/icons/java.png";
 import Icon3 from "../assets/images/icons/c.png";
@@ -32,10 +33,6 @@ import Icon21 from "../assets/images/icons/R_logo.png";
 import Icon22 from "../assets/images/icons/assembly.png";
 import Icon23 from "../assets/images/icons/selenium.png";
 import Icon24 from "../assets/images/icons/powerbi.png";
-
-//Power BI
-//Selenium
-//API's
 
 const icons: string[] = [
   Icon1,
@@ -94,8 +91,23 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="tech-skills page-body d-flex flex-column justify-content-center">
-        <h1 className="skills-header align-self-center mb-2">
+      <div className="container highlight-projects d-flex flex-column justify-content-center">
+        <h1 className="projects-header text-white align-self-center">My Favorite Projects:</h1>
+        <div className="projects-container row">
+          <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
+            <img className="featured-project-image img-fluid order-md-1" src={SongScraping} alt="" />
+          </div>
+          <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
+            <img className="featured-project-image img-fluid order-md-2" src={PaymentConfirmation} alt="" />
+          </div>
+          <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
+            <img className="featured-project-image img-fluid order-md-3" src={PaymentConfirmation} alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div className="tech-skills  d-flex flex-column justify-content-center">
+        <h1 className="skills-header align-self-center my-2 text-white">
           I have hands-on experience with:
         </h1>
         <div className="container row g-0 align-self-center">
