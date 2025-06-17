@@ -5,8 +5,8 @@ import HeadShot from "../assets/images/nathan2.jpg";
 import Button from "../components/Button";
 import "../assets/styles/Home.css";
 
-import SongScraping from "../assets/images/song_scraping.png"
-import PaymentConfirmation from "../assets/images/paymentconfirmation.png"
+import SongScraping from "../assets/images/song_scraping.png";
+import PaymentConfirmation from "../assets/images/paymentconfirmation.png";
 
 //Icons
 import Icon1 from "../assets/images/icons/python.png";
@@ -92,16 +92,30 @@ const Homepage = () => {
       </div>
 
       <div className="container highlight-projects d-flex flex-column justify-content-center">
-        <h1 className="projects-header text-white align-self-center">My Favorite Projects:</h1>
+        <h1 className="projects-header text-white align-self-center">
+          My Favorite Projects:
+        </h1>
         <div className="projects-container row">
           <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
-            <img className="featured-project-image img-fluid order-md-1" src={SongScraping} alt="" />
+            <img
+              className="featured-project-image img-fluid order-md-1"
+              src={SongScraping}
+              alt=""
+            />
           </div>
           <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
-            <img className="featured-project-image img-fluid order-md-2" src={PaymentConfirmation} alt="" />
+            <img
+              className="featured-project-image img-fluid order-md-2"
+              src={PaymentConfirmation}
+              alt=""
+            />
           </div>
           <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
-            <img className="featured-project-image img-fluid order-md-3" src={PaymentConfirmation} alt="" />
+            <img
+              className="featured-project-image img-fluid order-md-3"
+              src={PaymentConfirmation}
+              alt=""
+            />
           </div>
         </div>
       </div>
