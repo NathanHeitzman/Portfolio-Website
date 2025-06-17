@@ -2,80 +2,80 @@
   "courses": [
     {
       "id": 1,
-      "full name": "Introduction to Computing and Programming Concepts",
-      "course id": "CSCI-1133",
+      "full_name": "Introduction to Computing and Programming Concepts",
+      "course_id": "CSCI-1133",
       "course_description": "Fundamental programming concepts using Python language. Problem solving skills, recursion, object-oriented programming. Algorithm development techniques. Use of abstractions/modularity. Data structures/abstract data types. Develop programs to solve real-world problems.",
       "technology_used": "Python,Excel",
       "is_csci_course": true
     },
     {
       "id": 2,
-      "full name": "Introduction to Algorithms and Data Structures",
-      "course id": "CSCI-1933",
+      "full_name": "Introduction to Algorithms and Data Structures",
+      "course_id": "CSCI-1933",
       "course_description": "Advanced object oriented programming to implement abstract data types (stacks, queues, linked lists, hash tables, binary trees) using Java language. Inheritance. Searching/sorting algorithms. Basic algorithmic analysis. Use of software development tools",
       "technology_used": "Java,OOP,DSA",
       "is_csci_course": true
     },
     {
       "id": 3,
-      "full name": "Discrete Structures of Computer Science",
-      "course id": "CSCI-2011",
+      "full_name": "Discrete Structures of Computer Science",
+      "course_id": "CSCI-2011",
       "course_description": "Foundations of discrete mathematics. Sets, sequences, functions, big-O, propositional/predicate logic, proof methods, counting methods, recursion/recurrences, relations, trees/graph fundamentals.",
       "technology_used": "Python,DSA",
       "is_csci_course": true
     },
     {
       "id": 4,
-      "full name": "Machine Architecture and Organization",
-      "course id": "CSCI-2021",
+      "full_name": "Machine Architecture and Organization",
+      "course_id": "CSCI-2021",
       "course_description": "Introduction to hardware/software components of computer system. Data representation, boolean algebra, machine-level programs, instruction set architecture, processor organization, memory hierarchy, virtual memory, compiling, linking. Programming in C.",
       "technology_used": "C,X86-64 Assembly,GDB",
       "is_csci_course": true
     },
     {
       "id": 5,
-      "full name": "Elementary Computational Linear Algebra",
-      "course id": "CSCI-2033",
+      "full_name": "Elementary Computational Linear Algebra",
+      "course_id": "CSCI-2033",
       "course_description": "Matrices/linear transformations, basic theory. Linear vector spaces. Inner product spaces. Systems of linear equations, Eigenvalues, singular values. Algorithms/computational matrix methods using python. Use of matrix methods to solve variety of computer science problems.",
       "technology_used": "Python,Jupyter Notebooks,Numpy",
       "is_csci_course": true
     },
     {
       "id": 6,
-      "full name": "Advanced Programming Principles",
-      "course id": "CSCI-2041",
+      "full_name": "Advanced Programming Principles",
+      "course_id": "CSCI-2041",
       "course_description": "Principles/techniques for creating correct, robust, modular programs. Computing with symbolic data, recursion/induction, functional programming, impact of evaluation strategies, parallelism. Organizing data/computations around types. Search-based programming, concurrency, modularity.",
       "technology_used": "OCAML,LISP",
       "is_csci_course": true
     },
     {
       "id": 7,
-      "full name": "Advanced Programming Principles",
-      "course id": "CSCI-2041",
+      "full_name": "Advanced Programming Principles",
+      "course_id": "CSCI-2041",
       "course_description": "Principles/techniques for creating correct, robust, modular programs. Computing with symbolic data, recursion/induction, functional programming, impact of evaluation strategies, parallelism. Organizing data/computations around types. Search-based programming, concurrency, modularity.",
       "technology_used": "OCAML,LISP",
       "is_csci_course": true
     },
     {
       "id": 8,
-      "full name": "Special Topics in Computer Science",
-      "course id": "CSCI-2980",
+      "full_name": "Special Topics in Computer Science",
+      "course_id": "CSCI-2980",
       "course_description": "Special topics. Lectures, informal discussions regarding discrete structures",
       "technology_used": "Python,DSA",
       "is_csci_course": true
     },
     {
       "id": 9,
-      "full name": "Algorithms and Data Structures",
-      "course id": "CSCI-4041",
+      "full_name": "Algorithms and Data Structures",
+      "course_id": "CSCI-4041",
       "course_description": "Rigorous analysis of algorithms/implementation. Algorithm analysis, sorting algorithms, binary trees, heaps, priority queues, heapsort, balanced binary search trees, AVL trees, hash tables and hashing, graphs, graph traversal, single source shortest path, minimum cost spanning trees.",
       "technology_used": "Python,Flask,DSA",
       "is_csci_course": true
     },
     {
       "id": 10,
-      "full name": "Introduction to Operating Systems",
-      "course id": "CSCI-4061",
+      "full_name": "Introduction to Operating Systems",
+      "course_id": "CSCI-4061",
       "course_description": "Processes/threads, process coordination, interprocess communication, asynchronous events, memory management/file systems. Systems programming projects using operating system interfaces and program development tools.",
       "technology_used": "C,GDB,Multi-Threading",
       "is_csci_course": true
