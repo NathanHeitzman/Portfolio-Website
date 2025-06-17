@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/styles/Footer.css"
+import Resume from "../assets/Nathaniel-Heitzman-Resume.pdf"
 const Footer = () => {
   return (
     <>
@@ -81,7 +82,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#!" className="text-white">
+                    <a href={Resume} className="text-white" download>
                       Download my Resume
                     </a>
                   </li>
