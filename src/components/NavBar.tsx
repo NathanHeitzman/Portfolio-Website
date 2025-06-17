@@ -41,6 +41,11 @@ const Navbar = () => {
                   Projects
                 </Link>
               </li>
+              <li className="nav-item px-2">
+                <Link className="nav-link" to="/coursework">
+                Course Work
+                </Link>
+              </li>
             </ul>
           </div>
         </div>

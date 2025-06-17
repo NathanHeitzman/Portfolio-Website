@@ -22,7 +22,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="#!" className="text-white">
+                    <a href="/coursework" className="text-white">
                       Course Work
                     </a>
                   </li>
