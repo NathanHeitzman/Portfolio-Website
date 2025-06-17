@@ -83,7 +83,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <a href={Resume} className="text-white" download>
-                      Download my Resume
+                      Download my Resume 
                     </a>
                   </li>
                 </ul>
@@ -107,7 +107,7 @@ const Footer = () => {
                   type="submit"
                   className="btn btn-outline-white btn-block"
                 >
-                  Subscribe
+                  Send
                 </button>
               </div>
             </div>
