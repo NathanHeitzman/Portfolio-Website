@@ -48,7 +48,7 @@ const ContactMe = () => {
         <div className="contentLeft col-12 col-md-6 order-md-1">
           <div className="reasons-container">
             <div className="reasons-text">
-              <p>Message me to:</p>
+              <p>Message me to inquire about:</p>
               <ul>
                 <li className="contact-list-item">Project collaboration</li>
                 <li className="contact-list-item">Job / Internship opportunities</li>

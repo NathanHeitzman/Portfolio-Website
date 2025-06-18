@@ -3,8 +3,11 @@
   background-color: #1e1e2f;
   background-image: url("../images/layered-waves-haikei.svg");
   background-repeat: no-repeat;
-  padding-top: 2rem;
+  margin-bottom: 2rem;
   border-bottom: 1px solid #a78bfa;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /*border: 1px solid red;*/
 }
 
 .row {

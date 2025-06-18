@@ -15,7 +15,7 @@ body {
 .reasons-image {
     max-width:100%;
     height:auto; /*preserve aspect ratio when resizing page*/
-    border: 5px solid black;
+    border: 1px solid #2C2C40;
     border-radius: 20px;
 
     display: block; /*center the image horizontally*/
