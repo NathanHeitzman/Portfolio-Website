@@ -33,6 +33,7 @@ import Icon21 from "../assets/images/icons/R_logo.png";
 import Icon22 from "../assets/images/icons/assembly.png";
 import Icon23 from "../assets/images/icons/selenium.png";
 import Icon24 from "../assets/images/icons/powerbi.png";
+import { useState } from "react";
 
 const icons: string[] = [
   Icon1,
@@ -62,6 +63,7 @@ const icons: string[] = [
 ];
 
 const Homepage = () => {
+  const [openPopup, setPopupState] = useState(false);
   return (
     <>
       <Navbar />
@@ -124,13 +126,17 @@ const Homepage = () => {
         <h1 className="skills-header align-self-center my-2 text-white">
           I have hands-on experience with:
         </h1>
+        {openPopup &&
+        <p>TESTING</p>}
         <div className="container row g-0 align-self-center">
           {icons.map((icon, index) => (
             <div
               key={index}
               className="col-4 col-sm-3 col-md-2 col-xl-1 d-flex justify-content-center"
             >
-              <img src={icon} className="icon-image" />
+              <button className="icon-button" onClick={() => setPopupState(true)}>
+                <img src={icon} className="icon-image" />
+              </button>
             </div>
           ))}
         </div>
