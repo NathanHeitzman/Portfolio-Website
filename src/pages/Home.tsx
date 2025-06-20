@@ -92,7 +92,7 @@ const Homepage = () => {
       </div>
 
       <div className="container highlight-projects d-flex flex-column justify-content-center mb-2">
-        <h1 className="projects-header text-white align-self-center">
+        <h1 className="projects-header text-white align-self-center mb-3">
           My Favorite Projects:
         </h1>
         <div className="projects-container row">

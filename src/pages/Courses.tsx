@@ -18,12 +18,15 @@ const typedClassData: ClassDataType[] = ClassData.courses
   return (
     <>
       <Navbar />
-      <div className="page-body">
-        <div className="container d-flex flex-column justify-content-center">
+      <div className="page">
+        <div className="courses-container container d-flex flex-column justify-content-center">
             {
                 typedClassData.map((data,index) => ( // map all classes in the JSON file
                     <div className="course-container" key={index}>
+                        <h1>{data.course_id}</h1>
                         <h1>{data.full_name}</h1>
+                        <br/>
+                        <p>{data.course_description}</p>
                     </div>
                 ))
             }
