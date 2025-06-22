@@ -35,7 +35,6 @@ import AssemblyIcon from "../assets/images/icons/assembly.png";
 import SeleniumIcon from "../assets/images/icons/selenium.png";
 import PowerbiIcon from "../assets/images/icons/powerbi.png";
 
-
 const icons: string[] = [
   PythonIcon,
   JavaIcon,
@@ -65,7 +64,10 @@ const icons: string[] = [
 
 const Homepage = () => {
   const [openPopup, setPopupState] = useState(false);
-  const [popupData, setPopupData] = useState<{title: string; image:string;} | null>(null);
+  const [popupData, setPopupData] = useState<{
+    title: string;
+    image: string;
+  } | null>(null);
   return (
     <>
       <Navbar />
@@ -130,8 +132,18 @@ const Homepage = () => {
         </h1>
         {openPopup && (
           <>
-            <div className="popup-container align-self-center d-flex flex-column align-items-center">
-              <h1 className="popup-header text-white">{}</h1>
+            <div className="popup-container align-self-center d-flex flex-column">
+              <div className="border-test d-flex w-100">
+                <h1 className="popup-header text-white">Test</h1>
+                <div className="exit-button-container ms-auto">
+                  <button
+                    className="popup-exit-button "
+                    onClick={() => setPopupState(false)}
+                  >
+                    X
+                  </button>
+                </div>
+              </div>
             </div>
           </>
         )}
