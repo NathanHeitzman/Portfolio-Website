@@ -10,61 +10,62 @@ import SongScraping from "../assets/images/song_scraping.png";
 import PaymentConfirmation from "../assets/images/paymentconfirmation.png";
 
 //Icons
-import Icon1 from "../assets/images/icons/python.png";
-import Icon2 from "../assets/images/icons/java.png";
-import Icon3 from "../assets/images/icons/c.png";
-import Icon4 from "../assets/images/icons/html.png";
-import Icon5 from "../assets/images/icons/css.png";
-import Icon6 from "../assets/images/icons/javascript.png";
-import Icon7 from "../assets/images/icons/typescript.png";
-import Icon8 from "../assets/images/icons/react.png";
-import Icon9 from "../assets/images/icons/bootstrap.png";
-import Icon10 from "../assets/images/icons/git.png";
-import Icon11 from "../assets/images/icons/github.png";
-import Icon12 from "../assets/images/icons/figma.png";
-import Icon13 from "../assets/images/icons/excel.png";
-import Icon14 from "../assets/images/icons/word.png";
-import Icon15 from "../assets/images/icons/powerpoint.png";
-import Icon16 from "../assets/images/icons/teams.png";
-import Icon17 from "../assets/images/icons/docker.png";
-import Icon18 from "../assets/images/icons/ubuntu.png";
-import Icon19 from "../assets/images/icons/windows.png";
-import Icon20 from "../assets/images/icons/sql.png";
-import Icon21 from "../assets/images/icons/R_logo.png";
-import Icon22 from "../assets/images/icons/assembly.png";
-import Icon23 from "../assets/images/icons/selenium.png";
-import Icon24 from "../assets/images/icons/powerbi.png";
+import PythonIcon from "../assets/images/icons/python.png";
+import JavaIcon from "../assets/images/icons/java.png";
+import CIcon from "../assets/images/icons/c.png";
+import HTMLIcon from "../assets/images/icons/html.png";
+import CSSIcon from "../assets/images/icons/css.png";
+import JavascriptIcon from "../assets/images/icons/javascript.png";
+import TypescriptIcon from "../assets/images/icons/typescript.png";
+import ReactIcon from "../assets/images/icons/react.png";
+import BootstrapIcon from "../assets/images/icons/bootstrap.png";
+import GitIcon from "../assets/images/icons/git.png";
+import GithubIcon from "../assets/images/icons/github.png";
+import FigmaIcon from "../assets/images/icons/figma.png";
+import ExcelIcon from "../assets/images/icons/excel.png";
+import WordIcon from "../assets/images/icons/word.png";
+import PowerpointIcon from "../assets/images/icons/powerpoint.png";
+import TeamsIcon from "../assets/images/icons/teams.png";
+import DockerIcon from "../assets/images/icons/docker.png";
+import UbuntuIcon from "../assets/images/icons/ubuntu.png";
+import WindowsIcon from "../assets/images/icons/windows.png";
+import SQLIcon from "../assets/images/icons/sql.png";
+import RIcon from "../assets/images/icons/R_logo.png";
+import AssemblyIcon from "../assets/images/icons/assembly.png";
+import SeleniumIcon from "../assets/images/icons/selenium.png";
+import PowerbiIcon from "../assets/images/icons/powerbi.png";
 
 
 const icons: string[] = [
-  Icon1,
-  Icon2,
-  Icon3,
-  Icon4,
-  Icon5,
-  Icon6,
-  Icon7,
-  Icon8,
-  Icon9,
-  Icon10,
-  Icon11,
-  Icon12,
-  Icon13,
-  Icon14,
-  Icon15,
-  Icon16,
-  Icon17,
-  Icon18,
-  Icon19,
-  Icon20,
-  Icon21,
-  Icon22,
-  Icon23,
-  Icon24,
+  PythonIcon,
+  JavaIcon,
+  CIcon,
+  HTMLIcon,
+  CSSIcon,
+  JavascriptIcon,
+  TypescriptIcon,
+  ReactIcon,
+  BootstrapIcon,
+  GitIcon,
+  GithubIcon,
+  FigmaIcon,
+  ExcelIcon,
+  WordIcon,
+  PowerpointIcon,
+  TeamsIcon,
+  DockerIcon,
+  UbuntuIcon,
+  WindowsIcon,
+  SQLIcon,
+  RIcon,
+  AssemblyIcon,
+  SeleniumIcon,
+  PowerbiIcon,
 ];
 
 const Homepage = () => {
   const [openPopup, setPopupState] = useState(false);
+  const [popupData, setPopupData] = useState<{title: string; image:string;} | null>(null);
   return (
     <>
       <Navbar />
