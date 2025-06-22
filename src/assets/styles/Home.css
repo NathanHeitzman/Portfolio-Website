@@ -2,6 +2,14 @@
   all: unset;
 }
 
+.popup-container {
+  background-color: #2C2C40;
+  width:500px;
+  height:200px;
+  padding:1rem;
+  border-radius: 10px;
+}
+
 
 .page-body {
   background-color: #1e1e2f;
