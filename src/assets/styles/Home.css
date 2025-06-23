@@ -1,3 +1,29 @@
+.border-test {
+  /*border: 1px solid red;*/
+}
+
+.icon-button {
+  all: unset;
+}
+
+.popup-container {
+  background-color: #2C2C40;
+  width:500px;
+  height:200px;
+  border-radius: 10px;
+}
+
+.popup-exit-button {
+  all: unset;
+  color: white;
+  font-size: xx-large;
+  border: 1px solid #a78bfa;
+}
+
+.exit-button-container {
+
+}
+
 
 .page-body {
   background-color: #1e1e2f;
