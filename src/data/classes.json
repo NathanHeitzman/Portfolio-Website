@@ -6,7 +6,9 @@
       "course_id": "CSCI-1133",
       "course_description": "Fundamental programming concepts using Python language. Problem solving skills, recursion, object-oriented programming. Algorithm development techniques. Use of abstractions/modularity. Data structures/abstract data types. Develop programs to solve real-world problems.",
       "technology_used": "Python,Excel",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects":["tamogatchi","CSV data analysis","disease spread simulator"],
+      "my_description":"test"
     },
     {
       "id": 2,

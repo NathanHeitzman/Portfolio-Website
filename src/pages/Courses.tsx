@@ -11,6 +11,8 @@ interface ClassDataType {
     course_description:string;
     technology_used:string;
     is_csci_course:boolean;
+    projects?:Array<String>;
+    my_description?:string;
 }
 
 const Courses = () => {
@@ -27,6 +29,14 @@ const typedClassData: ClassDataType[] = ClassData.courses
                         <h1>{data.full_name}</h1>
                         <br/>
                         <p>{data.course_description}</p>
+                        <p>{data.my_description}</p>
+                        <br/>
+                        <h2>Key Projects:</h2>
+                        <ul>
+                          {data.projects?.map((project) => (
+                            <li className="text-white">{project}</li>
+                          ))}
+                        </ul>
                     </div>
                 ))
             }
