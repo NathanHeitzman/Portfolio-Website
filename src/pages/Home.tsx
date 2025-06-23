@@ -137,7 +137,7 @@ const Homepage = () => {
                 <h1 className="popup-header text-white">Test</h1>
                 <div className="exit-button-container ms-auto">
                   <button
-                    className="popup-exit-button "
+                    className="popup-exit-button"
                     onClick={() => setPopupState(false)}
                   >
                     X

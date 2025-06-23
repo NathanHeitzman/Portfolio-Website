@@ -1,0 +1,14 @@
+{
+    "technologies": [
+        {
+            "id":1,
+            "technology":"Python",
+            "experience_description":"I have developed several projects in Python"
+        },
+        {
+            "id":2,
+            "technology":"Java",
+            "experience_description":"I have also developed projects in Java"
+        }
+    ]
+}
