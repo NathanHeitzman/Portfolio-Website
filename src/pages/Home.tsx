@@ -35,38 +35,37 @@ import AssemblyIcon from "../assets/images/icons/assembly.png";
 import SeleniumIcon from "../assets/images/icons/selenium.png";
 import PowerbiIcon from "../assets/images/icons/powerbi.png";
 
-const icons: string[] = [
-  PythonIcon,
-  JavaIcon,
-  CIcon,
-  HTMLIcon,
-  CSSIcon,
-  JavascriptIcon,
-  TypescriptIcon,
-  ReactIcon,
-  BootstrapIcon,
-  GitIcon,
-  GithubIcon,
-  FigmaIcon,
-  ExcelIcon,
-  WordIcon,
-  PowerpointIcon,
-  TeamsIcon,
-  DockerIcon,
-  UbuntuIcon,
-  WindowsIcon,
-  SQLIcon,
-  RIcon,
-  AssemblyIcon,
-  SeleniumIcon,
-  PowerbiIcon,
+const icons: { name: string; src: string }[] = [
+  { name: "Python", src: PythonIcon },
+  { name: "Java", src: JavaIcon },
+  { name: "C", src: CIcon },
+  { name: "HTML", src: HTMLIcon },
+  { name: "CSS", src: CSSIcon },
+  { name: "JavaScript", src: JavascriptIcon },
+  { name: "TypeScript", src: TypescriptIcon },
+  { name: "React", src: ReactIcon },
+  { name: "Bootstrap", src: BootstrapIcon },
+  { name: "Git", src: GitIcon },
+  { name: "GitHub", src: GithubIcon },
+  { name: "Figma", src: FigmaIcon },
+  { name: "Excel", src: ExcelIcon },
+  { name: "Word", src: WordIcon },
+  { name: "PowerPoint", src: PowerpointIcon },
+  { name: "Teams", src: TeamsIcon },
+  { name: "Docker", src: DockerIcon },
+  { name: "Ubuntu", src: UbuntuIcon },
+  { name: "Windows", src: WindowsIcon },
+  { name: "SQL", src: SQLIcon },
+  { name: "R", src: RIcon },
+  { name: "Assembly", src: AssemblyIcon },
+  { name: "Selenium", src: SeleniumIcon },
+  { name: "Power BI", src: PowerbiIcon },
 ];
 
 const Homepage = () => {
   const [openPopup, setPopupState] = useState(false);
   const [popupData, setPopupData] = useState<{
     title: string;
-    image: string;
   } | null>(null);
   return (
     <>
@@ -138,12 +137,16 @@ const Homepage = () => {
                 <div className="exit-button-container ms-auto">
                   <button
                     className="popup-exit-button"
-                    onClick={() => setPopupState(false)}
+                    onClick={() => {
+                      setPopupState(false);
+                      setPopupData(null); //return the popup data to nothing when closed
+                    }}
                   >
                     X
                   </button>
                 </div>
               </div>
+              <p>{popupData?.title}</p>
             </div>
           </>
         )}
@@ -155,9 +158,12 @@ const Homepage = () => {
             >
               <button
                 className="icon-button"
-                onClick={() => setPopupState(true)}
+                onClick={() => {
+                  setPopupState(true);
+                  setPopupData({ title: icon.name });
+                }}
               >
-                <img src={icon} className="icon-image" />
+                <img src={icon.src} className="icon-image" />
               </button>
             </div>
           ))}
