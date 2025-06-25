@@ -94,7 +94,7 @@ const Homepage = () => {
                   </button>
                 </div>
               </div>
-              <p className="m-3">{popupData?.title}</p>
+              <p className="m-3 fs-5">{popupData?.title}</p>
             </div>
           </>
         )}
