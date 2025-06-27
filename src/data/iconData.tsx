@@ -29,7 +29,7 @@ const icons: { name: string; src: string; description: string }[] = [
     name: "Python",
     src: PythonIcon,
     description:
-      "I used Python to automate CSV data verification, scrape Spotify playlists, and streamline workflows using scripts built in VS Code.",
+      "I have used python throughout my time at University and have used it for several personal projects such as automated payment verificiation and a web scraping script that leveraged selenium",
   },
   {
     name: "Java",
@@ -137,31 +137,31 @@ const icons: { name: string; src: string; description: string }[] = [
     name: "Windows",
     src: WindowsIcon,
     description:
-      "I primarily use Windows for development, productivity, and gaming, integrating both GUI tools and command-line utilities.",
+      "I have worked with the Windows operating system for all of my life, I am good at troubleshooting Windows errors and developing with the system",
   },
   {
     name: "SQL",
     src: SQLIcon,
     description:
-      "I've worked with SQL to query databases and manage structured data, especially in tasks involving verification or sorting of large tables.",
+      "I've worked with SQL to query databases and manage structured data, and my food inventory project leverages a SQLite database",
   },
   {
     name: "R",
     src: RIcon,
     description:
-      "I've briefly used R for statistical analysis and data visualization in coursework related to analytics and quantitative modeling.",
+      "In my statistics courses I have used R to create, manipulate, and display data for various experiments and assignments",
   },
   {
     name: "Assembly",
     src: AssemblyIcon,
     description:
-      "I wrote Assembly code in a school project to implement basic algorithms and understand how instructions are handled at the hardware level.",
+      "I wrote X86-64 Assembly code for one of my machine architecture courses, I wrote simple instructions using the language and even did tasks that involved reverse engineering",
   },
   {
     name: "Selenium",
     src: SeleniumIcon,
     description:
-      "I've experimented with Selenium to automate form submissions and scrape content as part of my interest in web automation.",
+      "I Used selenium to create a web scraping project that collected meta data from a spotify playlist and then scraped youtube URL's of all of the songs on the playlist.",
   },
   {
     name: "Power BI",
