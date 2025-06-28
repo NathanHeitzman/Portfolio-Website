@@ -9,6 +9,7 @@ const ContactMe = () => {
   return (
     <>
       <Navbar />
+      <div className="contact-page mb-5">
       <div className="container-fluid row align-items-stretch">
         <div className="content-right col-12 col-md-6 order-md-2">
           <div className="inputs-container d-flex justify-content-center align-items-center">
@@ -65,6 +66,7 @@ const ContactMe = () => {
             </div>
           </div>
         </div>
+      </div>
       </div>
       <Footer />
     </>

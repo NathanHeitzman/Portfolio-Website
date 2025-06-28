@@ -98,7 +98,7 @@ const Homepage = () => {
             </div>
           </>
         )}
-        <div className="container row g-0 align-self-center">
+        <div className="container row g-0 align-self-center mb-5">
           {icons.map((icon, index) => (
             <div
               key={index}
