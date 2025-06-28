@@ -11,7 +11,7 @@ interface ClassDataType {
     course_description:string;
     technology_used:string;
     is_csci_course:boolean;
-    projects?:Array<String>;
+    projects?:Array<string>;
     my_description?:string;
 }
 
