@@ -11,6 +11,12 @@
       "name": "Automated Payment Verification",
       "description": "I created a custom Python script to automate the verification of product payments by comparing two CSV files—one containing customer order data and the other listing Venmo transaction history. This project significantly streamlined what was previously a manual and error-prone task by automatically cross-referencing customer names, amounts, and timestamps to confirm completed payments. Built and tested in VS Code, the script reduced data entry and verification time by over 90%, greatly improving both speed and accuracy in processing customer transactions.",
       "icons":["Python"]    
+    },
+        {
+      "id": 3,
+      "name": "This Website",
+      "description": "I designed and developed my own personal portfolio website from scratch as a way to represent my skills, creativity, and growth as a developer. Every part of the site—from the layout to the interactive elements—was built by me. I started by creating the full design in Figma, then brought it to life using HTML, CSS, JavaScript, and TypeScript. I used React for component-based structure and Bootstrap to ensure the site is fully responsive and visually consistent across all devices. This project is more than just a portfolio—it's a custom-built platform that reflects who I am as a developer, built entirely with tools and technologies I chose and implemented myself.",
+      "icons":["HTML","CSS","Typescript","React","Figma","Bootstrap"]    
     }
   ]
 }
