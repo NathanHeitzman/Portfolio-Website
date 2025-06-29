@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "Metadata Scraping / Automated Song Backup",
+      "description": "I built a two-part Python automation pipeline to extract song titles and artist names from a web-based playlist. I used Selenium to scrape the data and save it to a structured text file. Then, I wrote a second script that automatically searched each track on YouTube, captured the top video URL, and compiled the links into a list for batch downloading. I used this list with yt-dlp to efficiently download the entire playlist, streamlining the process of creating offline music libraries.",
+      "icons":["Python","Selenium"]
+    },
+    {
+      "id": 2,
+      "name": "Automated Payment Verification",
+      "description": "I created a custom Python script to automate the verification of product payments by comparing two CSV files—one containing customer order data and the other listing Venmo transaction history. This project significantly streamlined what was previously a manual and error-prone task by automatically cross-referencing customer names, amounts, and timestamps to confirm completed payments. Built and tested in VS Code, the script reduced data entry and verification time by over 90%, greatly improving both speed and accuracy in processing customer transactions.",
+      "icons":["Python"]    
+    }
+  ]
+}
