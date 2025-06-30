@@ -4,19 +4,25 @@
       "id": 1,
       "name": "Metadata Scraping / Automated Song Backup",
       "description": "I built a two-part Python automation pipeline to extract song titles and artist names from a web-based playlist. I used Selenium to scrape the data and save it to a structured text file. Then, I wrote a second script that automatically searched each track on YouTube, captured the top video URL, and compiled the links into a list for batch downloading. I used this list with yt-dlp to efficiently download the entire playlist, streamlining the process of creating offline music libraries.",
-      "icons":["Python","Selenium"]
+      "icons": ["Python", "Selenium"]
     },
     {
       "id": 2,
       "name": "Automated Payment Verification",
       "description": "I created a custom Python script to automate the verification of product payments by comparing two CSV files—one containing customer order data and the other listing Venmo transaction history. This project significantly streamlined what was previously a manual and error-prone task by automatically cross-referencing customer names, amounts, and timestamps to confirm completed payments. Built and tested in VS Code, the script reduced data entry and verification time by over 90%, greatly improving both speed and accuracy in processing customer transactions.",
-      "icons":["Python"]    
+      "icons": ["Python"]
     },
-        {
+    {
       "id": 3,
       "name": "This Website",
       "description": "I designed and developed my own personal portfolio website from scratch as a way to represent my skills, creativity, and growth as a developer. Every part of the site—from the layout to the interactive elements—was built by me. I started by creating the full design in Figma, then brought it to life using HTML, CSS, JavaScript, and TypeScript. I used React for component-based structure and Bootstrap to ensure the site is fully responsive and visually consistent across all devices. This project is more than just a portfolio—it's a custom-built platform that reflects who I am as a developer, built entirely with tools and technologies I chose and implemented myself.",
-      "icons":["HTML","CSS","Typescript","React","Figma","Bootstrap"]    
+      "icons": ["HTML", "CSS", "Typescript", "React", "Figma", "Bootstrap"]
+    },
+    {
+      "id": 4,
+      "name": "Tamogatchi",
+      "description": "I used Python and the Turtle library in order to build a simple 'Tamogatchi' styled app, using Turtle for the visuals",
+      "icons": ["Python"]
     }
   ]
 }
