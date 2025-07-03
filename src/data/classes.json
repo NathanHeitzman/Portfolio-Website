@@ -16,7 +16,9 @@
       "course_id": "CSCI-1933",
       "course_description": "Advanced object oriented programming to implement abstract data types (stacks, queues, linked lists, hash tables, binary trees) using Java language. Inheritance. Searching/sorting algorithms. Basic algorithmic analysis. Use of software development tools",
       "technology_used": "Java,OOP,DSA",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects":["Anagram Finder"],
+      "my_description": ""
     },
     {
       "id": 3,
