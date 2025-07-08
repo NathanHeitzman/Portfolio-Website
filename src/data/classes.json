@@ -17,7 +17,7 @@
       "course_description": "Advanced object oriented programming to implement abstract data types (stacks, queues, linked lists, hash tables, binary trees) using Java language. Inheritance. Searching/sorting algorithms. Basic algorithmic analysis. Use of software development tools",
       "technology_used": "Java,OOP,DSA",
       "is_csci_course": true,
-      "projects":["Anagram Finder","Card Games"],
+      "projects":["Card Games","Polynomial Arithmetic","Anagram Finder"],
       "my_description": ""
     },
     {
@@ -26,7 +26,8 @@
       "course_id": "CSCI-2011",
       "course_description": "Foundations of discrete mathematics. Sets, sequences, functions, big-O, propositional/predicate logic, proof methods, counting methods, recursion/recurrences, relations, trees/graph fundamentals.",
       "technology_used": "Python,DSA",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects":["Contacts Log System","Bitwise Puzzles and Debugging"," Assembly Practice and Binary Bomb Defusal","Matrix Multiplication Optimization"]
     },
     {
       "id": 4,
@@ -34,7 +35,8 @@
       "course_id": "CSCI-2021",
       "course_description": "Introduction to hardware/software components of computer system. Data representation, boolean algebra, machine-level programs, instruction set architecture, processor organization, memory hierarchy, virtual memory, compiling, linking. Programming in C.",
       "technology_used": "C,X86-64 Assembly,GDB",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects":["Linear Algebra Applications with NumPy","KNN Implementation",""]
     },
     {
       "id": 5,
