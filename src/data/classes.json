@@ -26,8 +26,7 @@
       "course_id": "CSCI-2011",
       "course_description": "Foundations of discrete mathematics. Sets, sequences, functions, big-O, propositional/predicate logic, proof methods, counting methods, recursion/recurrences, relations, trees/graph fundamentals.",
       "technology_used": "Python,DSA",
-      "is_csci_course": true,
-      "projects":["Contacts Log System","Bitwise Puzzles and Debugging"," Assembly Practice and Binary Bomb Defusal","Matrix Multiplication Optimization"]
+      "is_csci_course": true
     },
     {
       "id": 4,
@@ -36,7 +35,7 @@
       "course_description": "Introduction to hardware/software components of computer system. Data representation, boolean algebra, machine-level programs, instruction set architecture, processor organization, memory hierarchy, virtual memory, compiling, linking. Programming in C.",
       "technology_used": "C,X86-64 Assembly,GDB",
       "is_csci_course": true,
-      "projects":["Linear Algebra Applications with NumPy","KNN Implementation",""]
+      "projects":["Contacts Log System","Bitwise Puzzles and Debugging"," Assembly Practice and Binary Bomb Defusal","Matrix Multiplication Optimization"]
     },
     {
       "id": 5,
@@ -44,7 +43,8 @@
       "course_id": "CSCI-2033",
       "course_description": "Matrices/linear transformations, basic theory. Linear vector spaces. Inner product spaces. Systems of linear equations, Eigenvalues, singular values. Algorithms/computational matrix methods using python. Use of matrix methods to solve variety of computer science problems.",
       "technology_used": "Python,Jupyter Notebooks,Numpy",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects":["Linear Algebra Applications with NumPy","KNN Implementation",""]
     },
     {
       "id": 6,
