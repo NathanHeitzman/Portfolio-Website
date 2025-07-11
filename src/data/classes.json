@@ -84,7 +84,8 @@
       "course_id": "CSCI-4061",
       "course_description": "Processes/threads, process coordination, interprocess communication, asynchronous events, memory management/file systems. Systems programming projects using operating system interfaces and program development tools.",
       "technology_used": "C,GDB,Multi-Threading",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects": ["Linux TAR System","Personal Terminal","Inter-Process Communication with Pipes","Multithreaded TCP Server / Data Retrieval"]
     }
   ]
 }
