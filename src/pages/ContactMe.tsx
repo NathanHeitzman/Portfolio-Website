@@ -4,8 +4,36 @@ import Footer from "../components/Footer";
 import Button from "../components/Button";
 import Handshake from "../assets/images/handshake.png";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
+
 
 const ContactMe = () => {
+  const form = useRef<HTMLFormElement>(null);
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_52b0xzr", //Service ID
+        "template_o6i549s", //Template ID
+        form.current!, // Form reference
+        "OST-LgUkVry-dHvAsOST-LgUkVry-dHvAs" //Public Key
+      )
+      .then(
+        () => {
+          console.log("Email sent successfully");
+          alert("Your message has been sent successfully!");
+        },
+        (error) => {
+          console.error("OOPS, Email failed to send", error.text);
+          alert("There was a problem sending your message.");
+        }
+      );
+
+    form.current?.reset(); // Clear the form after sending
+  };
+
   return (
     <>
       <Navbar />
@@ -14,34 +42,45 @@ const ContactMe = () => {
         <div className="content-right col-12 col-md-6 order-md-2">
           <div className="inputs-container d-flex justify-content-center align-items-center">
             <div className="inner-input-container d-flex flex-column">
-              <input
+              <form
+                ref={form}
+                onSubmit={sendEmail}
+                className="inner-input-container d-flex flex-column"
+              >
+                <input
+                  className="user-input"
+                  name="user-name"
+                  placeholder="Username:"
+                  type="text"
+                />
+                <input
+                  className="user-input"
+                  name="user-email-address"
+                  placeholder="Email Address:"
+                  type="email"
+                />
+                <input
+                  className="user-input"
+                  name="user-phone-number"
+                  placeholder="Phone Number:"
+                  type="text"
+                />
+                <input 
                 className="user-input"
-                placeholder="Username:"
-                type="text"
-              />
-              <input
-                className="user-input"
-                placeholder="Email Address:"
-                type="email"
-              />
-              <input
-                className="user-input"
-                placeholder="Phone Number:"
-                type="text"
-              />
-              <input 
-              className="user-input"
-              placeholder="Company Website URL:"
-              type="url" 
-              />
-              <input
-                className="user-comments-input"
-                placeholder="Comments:"
-                type="text"
-              />
-              <div className="button-container d-flex justify-content-center justify-content-lg-end">
-                <Button className="submit-button align-self-end py-2 px-4" text="Submit" />
-              </div>
+                name="user-website"
+                placeholder="Company Website URL:"
+                type="url" 
+                />
+                <input
+                  className="user-comments-input"
+                  name="user-message"
+                  placeholder="Comments:"
+                  type="text"
+                />
+                <div className="button-container d-flex justify-content-center justify-content-lg-end">
+                  <Button className="submit-button align-self-end py-2 px-4" text="Submit" />
+                </div>
+              </form>
             </div>
           </div>
         </div>
