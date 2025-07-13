@@ -71,11 +71,10 @@ const ContactMe = () => {
                 placeholder="Company Website URL:"
                 type="url" 
                 />
-                <input
+                <textarea
                   className="user-comments-input"
                   name="user-message"
                   placeholder="Comments:"
-                  type="text"
                 />
                 <div className="button-container d-flex justify-content-center justify-content-lg-end">
                   <Button className="submit-button align-self-end py-2 px-4" text="Submit" />
