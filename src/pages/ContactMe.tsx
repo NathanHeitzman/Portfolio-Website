@@ -18,15 +18,15 @@ const ContactMe = () => {
         "service_52b0xzr", //Service ID
         "template_o6i549s", //Template ID
         form.current!, // Form reference
-        "OST-LgUkVry-dHvAsOST-LgUkVry-dHvAs" //Public Key
+        "OST-LgUkVry-dHvAs" //Public Key
       )
       .then(
         () => {
-          console.log("Email sent successfully");
-          alert("Your message has been sent successfully!");
+          console.log("Email sent successfully"); //alert user about success
+          alert("Your message has been sent successfully, I will do my best to be in contact as soon as possible!");
         },
         (error) => {
-          console.error("OOPS, Email failed to send", error.text);
+          console.error("Email failed to send", error.text); //handle errors and alert user regarding the problem
           alert("There was a problem sending your message.");
         }
       );
