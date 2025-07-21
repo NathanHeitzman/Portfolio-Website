@@ -23,6 +23,23 @@
       "name": "Tamogatchi",
       "description": "I used Python and the Turtle library in order to build a simple 'Tamogatchi' styled app, using Turtle for the visuals",
       "icons": ["Python"]
+    },
+    {
+      "id": 5,
+      "name": "Card Games with Object Oriented Programming",
+      "description": "I used object oriented programming principles and java in order to build a functioning card game, starting from a card object which turned into decks which turned into tableaus",
+      "icons":["Java"]
+    },
+    {
+      "id": 6,
+      "name": "Polynomial Arithmetic",
+      "description": "Using linked lists that were made in Java, I made a program that will add and subtract polynomials from each other",
+      "icons":["Java"] 
+    },
+    {
+      "id": 7,
+      "name": "Efficient Anagram Finder",
+      "description": "I leveraged linked lists, array keys, and binary search trees in order to create a program that efficiently found all anagrams in a large body of text. For example, I was able to find thousands of anagrams in the book War and Peace in approximatelly 8 to 10 seconds"
     }
   ]
 }
