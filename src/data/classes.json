@@ -17,8 +17,8 @@
       "course_description": "Advanced object oriented programming to implement abstract data types (stacks, queues, linked lists, hash tables, binary trees) using Java language. Inheritance. Searching/sorting algorithms. Basic algorithmic analysis. Use of software development tools",
       "technology_used": "Java,OOP,DSA",
       "is_csci_course": true,
-      "projects":["Card Games","Polynomial Arithmetic","Anagram Finder"],
-      "my_description": ""
+      "projects":["Card Games","Polynomial Arithmetic","Efficient Anagram Finder"],
+      "my_description": "This course introduced me to building and implementing data structures in order to create more efficient algorithms. From this class I also gained exposure to concepts such as pointers, big O notation, and algorithms with searching and sorting."
     },
     {
       "id": 3,
@@ -26,7 +26,8 @@
       "course_id": "CSCI-2011",
       "course_description": "Foundations of discrete mathematics. Sets, sequences, functions, big-O, propositional/predicate logic, proof methods, counting methods, recursion/recurrences, relations, trees/graph fundamentals.",
       "technology_used": "Python,DSA",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects": [""]
     },
     {
       "id": 4,
@@ -52,7 +53,8 @@
       "course_id": "CSCI-2041",
       "course_description": "Principles/techniques for creating correct, robust, modular programs. Computing with symbolic data, recursion/induction, functional programming, impact of evaluation strategies, parallelism. Organizing data/computations around types. Search-based programming, concurrency, modularity.",
       "technology_used": "OCAML,LISP",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects":[""]
     },
     {
       "id": 7,
@@ -60,7 +62,8 @@
       "course_id": "CSCI-2041",
       "course_description": "Principles/techniques for creating correct, robust, modular programs. Computing with symbolic data, recursion/induction, functional programming, impact of evaluation strategies, parallelism. Organizing data/computations around types. Search-based programming, concurrency, modularity.",
       "technology_used": "OCAML,LISP",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects": [""]
     },
     {
       "id": 8,
@@ -68,7 +71,8 @@
       "course_id": "CSCI-2980",
       "course_description": "Special topics. Lectures, informal discussions regarding discrete structures",
       "technology_used": "Python,DSA",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects":[""]
     },
     {
       "id": 9,
@@ -76,7 +80,8 @@
       "course_id": "CSCI-4041",
       "course_description": "Rigorous analysis of algorithms/implementation. Algorithm analysis, sorting algorithms, binary trees, heaps, priority queues, heapsort, balanced binary search trees, AVL trees, hash tables and hashing, graphs, graph traversal, single source shortest path, minimum cost spanning trees.",
       "technology_used": "Python,Flask,DSA",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects":[""]
     },
     {
       "id": 10,
@@ -84,7 +89,8 @@
       "course_id": "CSCI-4061",
       "course_description": "Processes/threads, process coordination, interprocess communication, asynchronous events, memory management/file systems. Systems programming projects using operating system interfaces and program development tools.",
       "technology_used": "C,GDB,Multi-Threading",
-      "is_csci_course": true
+      "is_csci_course": true,
+      "projects": ["Linux TAR System","Personal Terminal","Inter-Process Communication with Pipes","Multithreaded TCP Server / Data Retrieval"]
     }
   ]
 }

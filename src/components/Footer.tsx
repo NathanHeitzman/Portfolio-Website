@@ -39,7 +39,7 @@ const Footer = () => {
                   <h5 className="mb-4">ASSISTANCE</h5>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#!" className="text-white">
+                      <a href="/contact-me" className="text-white">
                         Contact Me
                       </a>
                     </li>

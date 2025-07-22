@@ -35,25 +35,25 @@ const icons: { name: string; src: string; description: string }[] = [
     name: "Java",
     src: JavaIcon,
     description:
-      "I used Java in my university coursework to build object-oriented programs and better understand core software engineering principles.",
+      "I used Java in my university coursework to build object-oriented programs and leverage data structures for optimized code",
   },
   {
     name: "C",
     src: CIcon,
     description:
-      "I worked with C in my machine architecture class to explore memory management and system-level programming concepts.",
+      "I worked with C in my machine architecture class to explore memory management and system-level programming concepts. I have also explored different libraries that taught me the fundamentals of working with system calls to the operating system",
   },
   {
     name: "HTML",
     src: HTMLIcon,
     description:
-      "I used HTML to build the structure of my personal portfolio and custom pages that showcase my projects.",
+      "I used HTML to build the structure of my personal portfolio. some of my projects have also involved scraping through HTML tags to get necessary information"
   },
   {
     name: "CSS",
     src: CSSIcon,
     description:
-      "I styled my portfolio with CSS, customizing layouts, hover effects, animations, and responsiveness across devices.",
+      "I styled my portfolio and other projects using CSS, customizing layouts, hover effects, animations, and responsiveness across devices.",
   },
   {
     name: "JavaScript",
