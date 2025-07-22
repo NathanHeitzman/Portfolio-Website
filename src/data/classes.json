@@ -36,7 +36,7 @@
       "course_description": "Introduction to hardware/software components of computer system. Data representation, boolean algebra, machine-level programs, instruction set architecture, processor organization, memory hierarchy, virtual memory, compiling, linking. Programming in C.",
       "technology_used": "C,X86-64 Assembly,GDB",
       "is_csci_course": true,
-      "projects":["Contacts Log System","Bitwise Puzzles and Debugging"," Assembly Practice and Binary Bomb Defusal","Matrix Multiplication Optimization"]
+      "projects":["Contacts Log System","Bitwise Puzzles and Debugging","Assembly Practice and Binary Bomb Defusal","Matrix Multiplication Optimization"]
     },
     {
       "id": 5,

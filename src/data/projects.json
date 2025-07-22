@@ -39,7 +39,32 @@
     {
       "id": 7,
       "name": "Efficient Anagram Finder",
-      "description": "I leveraged linked lists, array keys, and binary search trees in order to create a program that efficiently found all anagrams in a large body of text. For example, I was able to find thousands of anagrams in the book War and Peace in approximatelly 8 to 10 seconds"
+      "description": "I leveraged linked lists, array keys, and binary search trees in order to create a program that efficiently found all anagrams in a large body of text. For example, I was able to find thousands of anagrams in the book War and Peace in approximatelly 8 to 10 seconds",
+      "icons":["Java"]
+    },
+    {
+      "id": 8,
+      "name": "Contacts Log System",
+      "description": "I used a linked list and C in order to create a contacts log system, in this project I focused on concepts such as file I/O and proper memory management",
+      "icons":["C"]
+    },
+    {
+      "id": 9,
+      "name": "Bitwise Puzzles and Debugging",
+      "description":"I solved a series of problems only using bitwise operations to help create solutions that are optimized to run on smaller devices. I then had a portion where I used the debugger to solve a series of input puzzles",
+      "icons":["C","GDB"]
+    },
+    {
+      "id": 10,
+      "name": "Assembly Practice and Binary Bomb Defusal",
+      "description":"I solved the classic binary bomb defusal using the debugger to go through an assembly program in order to find the correct inputs needed to defuse six different stages. This helped teach me about reverse engineering. I also solved some smaller puzzles that required me to write code in X86-64 Assembly",
+      "icons":["C","GDB","Assembly"]
+    },
+    {
+      "id":11,
+      "name":"Matrix Multiplication Optimization",
+      "description":"I wrote and optimized a matrix multiplication program in order to reach x7 efficiency from the naive approach",
+      "icons":["C"]
     }
   ]
 }
