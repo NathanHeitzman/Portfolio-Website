@@ -44,7 +44,7 @@
       "course_description": "Matrices/linear transformations, basic theory. Linear vector spaces. Inner product spaces. Systems of linear equations, Eigenvalues, singular values. Algorithms/computational matrix methods using python. Use of matrix methods to solve variety of computer science problems.",
       "technology_used": "Python,Jupyter Notebooks,Numpy",
       "is_csci_course": true,
-      "projects":["Linear Algebra Applications with NumPy","KNN Implementation",""]
+      "projects":["Linear Algebra Applications with NumPy","KNN Implementation","Matrix Decomposition and Least Squares Approximation","Facial Recognition Using Eigenvectors"]
     },
     {
       "id": 6,
