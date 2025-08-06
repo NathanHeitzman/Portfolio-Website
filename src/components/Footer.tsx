@@ -54,7 +54,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#!" className="text-white">
+                      <a href="/about-website" className="text-white">
                         About This Website
                       </a>
                     </li>
