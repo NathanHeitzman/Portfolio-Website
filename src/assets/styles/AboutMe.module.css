@@ -1,0 +1,12 @@
+.textContainer {
+    margin: 0;
+}
+.pageBody {
+    padding: 20px;
+}
+.immageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
