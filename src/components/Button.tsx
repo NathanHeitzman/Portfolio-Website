@@ -1,6 +1,6 @@
 import { useNavigate, type NavigateFunction } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../assets/styles/button.css";
+import styles from "../assets/styles/Button.module.css";
 
 interface ButtonProps {
   text: string;
@@ -21,7 +21,7 @@ const Button = ({ text,  className }: ButtonProps) => {
   const navigate = useNavigate();
   return (
     <button
-      className={`about-btn ${className ?? ""}`} //if className is null append nothing
+      className={`${styles.aboutBtn} ${className ?? ""}`} //if className is null append nothing
       onClick={() => clicked(text, navigate)}
     >
       {text}
