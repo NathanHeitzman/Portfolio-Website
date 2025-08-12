@@ -1,7 +1,7 @@
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import Project1 from "../assets/images/project.png";
-import "../assets/styles/projects.css";
+import styles from "../assets/styles/projects.module.css";
 
 import PythonIcon from "../assets/images/icons/python.png"
 import SeleniumIcon from "../assets/images/icons/selenium.png"
@@ -20,11 +20,11 @@ const Projects = () => {
     return (
         <>
             <Navbar />
-            <div className="projects-container container-fluid d-flex flex-column align-items-center">
-                <div className="img-container">
-                    <img className="project-image" src={SongScraping} alt="project 1" />
+            <div className={`${styles.projectsContainer} container-fluid d-flex flex-column align-items-center`}>
+                <div className={`${styles.imageContainer}`}>
+                    <img className={`${styles.projectImage}`} src={SongScraping} alt="project 1" />
                 </div>
-                <div className="text-container d-flex flex-column">
+                <div className={`${styles.textContainer} d-flex flex-column`}>
                     <h3 className="align-self-center mt-3">Metadata Scraping / Automated Song Backup</h3>
                     <p className="align-self-center p-4">
                         I built a two-part Python automation pipeline to extract song titles and artist names 
@@ -33,15 +33,15 @@ const Projects = () => {
                         video URL, and compiled the links into a list for batch downloading. I used this list with yt-dlp to 
                         efficiently download the entire playlist, streamlining the process of creating offline music libraries.
                     </p>
-                    <div className="icon-row d-flex flex-row align-items-center">
+                    <div className="d-flex flex-row align-items-center">
                         <p className="px-4">Technologies Used:</p>
-                        <img className="icon" src={PythonIcon} />
-                        <img className="icon" src={SeleniumIcon} />
+                        <img className={`${styles.icon}`} src={PythonIcon} />
+                        <img className={`${styles.icon}`} src={SeleniumIcon} />
                     </div>
                 </div>
-                <div className="img-container">
-                    <img className="project-image" src={CsvPaymentConfirmation} alt="project 2" />
-                    <div className="text-container d-flex flex-column">
+                <div className={`${styles.imageContainer}`}>
+                    <img className={`${styles.projectImage}`} src={CsvPaymentConfirmation} alt="project 2" />
+                    <div className={`${styles.textContainer} d-flex flex-column`}>
                         <h3 className="align-self-center mt-3">Automated Payment Verification</h3>
                         <p className="align-self-center p-4">
                         I created a custom Python script to automate the verification of product payments 
@@ -52,15 +52,15 @@ const Projects = () => {
                         script reduced data entry and verification time by over 90%, greatly improving both speed 
                         and accuracy in processing customer transactions.
                         </p>
-                        <div className="icon-row d-flex flex-row align-items-center">
+                        <div className="d-flex flex-row align-items-center">
                             <p className="px-4">Technologies Used:</p>
-                            <img className="icon" src={PythonIcon} />
+                            <img className={`${styles.icon}`} src={PythonIcon} />
                         </div>
                     </div>
                 </div>
-                <div className="img-container">
-                    <img className="project-image" src={PortfolioWebsite} alt="project 3" />
-                    <div className="text-container d-flex flex-column">
+                <div className={`${styles.imageContainer}`}>
+                    <img className={`${styles.projectImage}`} src={PortfolioWebsite} alt="project 3" />
+                    <div className={`${styles.textContainer} d-flex flex-column`}>
                         <h3 className="align-self-center mt-3">This Website</h3>
                         <p className="align-self-center p-4">
                         I designed and developed my own personal portfolio website from scratch as a way 
@@ -72,14 +72,14 @@ const Projects = () => {
                         more than just a portfolio—it's a custom-built platform that reflects who I am as a developer, 
                         built entirely with tools and technologies I chose and implemented myself.
                         </p>
-                        <div className="icon-row d-flex flex-row align-items-center">
+                        <div className="d-flex flex-row align-items-center">
                             <p className="px-4">Technologies Used:</p>
-                            <img className="icon" src={HTML} />
-                            <img className="icon" src={CSS} />
-                            <img className="icon" src={TypeScript} />
-                            <img className="icon" src={React} />
-                            <img className="icon" src={Figma} />
-                            <img className="icon" src={Bootstrap} />
+                            <img className={`${styles.icon}`} src={HTML} />
+                            <img className={`${styles.icon}`} src={CSS} />
+                            <img className={`${styles.icon}`} src={TypeScript} />
+                            <img className={`${styles.icon}`} src={React} />
+                            <img className={`${styles.icon}`} src={Figma} />
+                            <img className={`${styles.icon}`} src={Bootstrap} />
                         </div>
                     </div>
                 </div>
