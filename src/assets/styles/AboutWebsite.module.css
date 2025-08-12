@@ -1,12 +1,16 @@
-.about-website-container {
+.aboutWebsiteContainer {
   padding: 20px;
 }
 
-.reachout-text-link {
+.text{
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+.textLink {
   text-decoration: none;
   color: #7b68ee;
 }
 
-.header{
+.header {
   border-bottom: 1px solid #a78bfa;
 }
