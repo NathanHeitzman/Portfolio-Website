@@ -9,6 +9,7 @@ import Projects from "./pages/Projects"
 import Courses from "./pages/Courses"
 import AboutMe from "./pages/AboutMe"
 import AboutWebsite from "./pages/AboutWebsite";
+import InProgress from "./pages/InProgress";
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path="/coursework" element={<Courses />}></Route>
           <Route path="/about" element={<AboutMe />}></Route>
           <Route path="/about-website" element={<AboutWebsite />}></Route>
+          <Route path="/in-progress" element={<InProgress />}></Route>
         </Routes>
       </Router>
     </>

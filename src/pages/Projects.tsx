@@ -1,6 +1,5 @@
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
-import Project1 from "../assets/images/project.png";
 import styles from "../assets/styles/projects.module.css";
 
 import PythonIcon from "../assets/images/icons/python.png"

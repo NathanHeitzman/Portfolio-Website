@@ -1,0 +1,30 @@
+.navbar{
+    background-color: #2a2a3d;
+    color: #ffffff;
+}
+
+.navItem{
+    color: #ffffff;
+    margin-right: 1.5rem;
+    font-size: large;
+}
+.navBarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a2a3d;
+    color: #ffffff;
+    height: 50px;
+}
+
+.nav-Link {
+    color: #ffffff;
+}
+
+.navbarToggler {
+    border: 1px solid #ffffff;
+}
+
+.navbarTogglerIcon {
+    filter:invert(1); /*makes the hamburger icon white*/
+}
