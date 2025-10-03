@@ -4,7 +4,7 @@ body {
 }
 
 
-.reasons-text {
+.reasonsText {
     font-size: xx-large;
     background-color: #2C2C40;
     padding:10px;
@@ -14,7 +14,7 @@ body {
     border-radius: 20px;
 }
 
-.reasons-image {
+.reasonsImage {
     max-width:100%;
     height:auto; /*preserve aspect ratio when resizing page*/
     border: 1px solid #2C2C40;
@@ -25,11 +25,11 @@ body {
     margin-right: auto;
 }
 
-.contact-list-item, p {
+.contactListItem, p {
     color: #ffffff;
 }
 
-.inputs-container {
+.inputsContainer {
     flex-grow: 1; /*this container height grows to fit the size of the left text + image*/
     background-color: #2C2C40;
 
@@ -40,31 +40,31 @@ body {
     border-radius: 20px;
 }
 
-.inner-input-container {
+.innerInputContainer {
     width: 75%;
     align-items: center;
     gap:1.5rem;
 }
-.user-input {
+.userInput {
     width:100%;
     height:50px;
 }
 
-.user-comments-input {
+.userCommentsInput {
     width: 100%;
     height:140px;
 }
 
-.content-right {
+.contentRight {
     display: flex;
     flex-direction: column;
 }
 
-.button-container{
+.buttonContainer{
     width: 100%;
 }
 
-.submit-button{
+.submitButton{
     font-size: 2rem;
     width:180px;
     height:60px;
