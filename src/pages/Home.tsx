@@ -5,7 +5,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import HeadShot from "../assets/images/nathan2.jpg";
 import Button from "../components/Button";
 import icons from "../data/iconData";
-import "../assets/styles/Home.css";
+import styles from "../assets/styles/Home.module.css";
 
 import SongScraping from "../assets/images/song_scraping.png";
 import PaymentConfirmation from "../assets/images/paymentconfirmation.png";
@@ -17,21 +17,21 @@ const Homepage = () => {
   return (
     <>
       <Navbar />
-      <div className="page-body d-flex justify-content-center align-items-center">
-        <div className="row w-100 container">
+      <div className={`${styles.pageBody} d-flex justify-content-center align-items-center`}>
+        <div className={`${styles.heroRow} row w-100 container`}>
           <div className="image-column col-12 col-md-6 order-md-2">
-            <img src={HeadShot} className="my-headshot img-fluid"></img>
+            <img src={HeadShot} className={`${styles.myHeadshot} img-fluid`}></img>
           </div>
 
-          <div className="text-column col-12 col-md-6 order-md-1">
+          <div className={`${styles.textColumn} col-12 col-md-6 order-md-1`}>
             <h1 className="mb-0">Hey there!</h1>
             <h2>
-              I'm <span className="gradient-name">Nathan Heitzman</span>
+              I'm <span className={styles.gradientName}>Nathan Heitzman</span>
             </h2>
             <h2>A Computer Science Student</h2>
             <br></br>
             <Button text="Lets Build Something Together!" />
-            <div className="social-icons">
+            <div className={styles.socialIcons}>
               <a href="https://www.linkedin.com/in/nathaniel-heitzman/">
                 <i className="bi bi-linkedin"></i>
               </a>
@@ -50,21 +50,21 @@ const Homepage = () => {
         <div className="projects-container row">
           <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
             <img
-              className="featured-project-image img-fluid order-md-1"
+              className={`${styles.featuredProjectImage} img-fluid order-md-1`}
               src={SongScraping}
               alt=""
             />
           </div>
           <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
             <img
-              className="featured-project-image img-fluid order-md-2"
+              className={`${styles.featuredProjectImage} img-fluid order-md-2`}
               src={PaymentConfirmation}
               alt=""
             />
           </div>
           <div className="project-container col-12 col-md-4 d-flex justify-content-center my-3 my-md-0">
             <img
-              className="featured-project-image img-fluid order-md-3"
+              className={`${styles.featuredProjectImage} img-fluid order-md-3`}
               src={PaymentConfirmation}
               alt=""
             />
@@ -78,12 +78,12 @@ const Homepage = () => {
         </h1>
         {openPopup && (
           <>
-            <div className="popup-container align-self-center d-flex flex-column">
-              <div className="border-test d-flex w-100">
-                <h1 className="popup-header text-white">{popupTitle?.title}</h1>
+            <div className={`${styles.popupContainer} align-self-center d-flex flex-column`}>
+              <div className={`${styles.borderTest} d-flex w-100`}>
+                <h1 className={`${styles.popupHeader} text-white`}>{popupTitle?.title}</h1>
                 <div className="exit-button-container ms-auto">
                   <button
-                    className="popup-exit-button"
+                    className={styles.popupExitButton}
                     onClick={() => {
                       setPopupState(false);
                       setPopupData(null); //return the popup data to nothing when closed
@@ -105,14 +105,14 @@ const Homepage = () => {
               className="col-4 col-sm-3 col-md-2 col-xl-1 d-flex justify-content-center"
             >
               <button
-                className="icon-button"
+                className={styles.iconButton}
                 onClick={() => {
                   setPopupState(true);
                   setPopupData({ title: icon.description }); //set popup description
                   setPopupTitle({title: icon.name}); //set popup header
                 }}
               >
-                <img src={icon.src} className="icon-image" />
+                <img src={icon.src} className={styles.iconImage} />
               </button>
             </div>
           ))}

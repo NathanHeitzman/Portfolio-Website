@@ -1,12 +1,12 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../assets/styles/Footer.css";
+import styles from "../assets/styles/Footer.module.css";
 import Resume from "../assets/Nathaniel-Heitzman-Resume.pdf";
 const Footer = () => {
   return (
     <>
-      <div className="footer-container">
+      <div className={styles.footerContainer}>
         <div className="container-fluid p-0">
-          <footer className="text-center text-lg-start pt-4">
+          <footer className={`${styles.footer} text-center text-lg-start pt-4`}>
             <div className="container-fluid p-4">
               <div className="row">
                 <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
