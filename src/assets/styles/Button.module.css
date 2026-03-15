@@ -1,7 +1,7 @@
 .aboutBtn {
-  background: linear-gradient(135deg, #6a5acd, #7b68ee);
-  box-shadow: 0 0 10px rgba(106, 90, 205, 0.7); /* soft glow */
-  color: #ffffff;
+  background: linear-gradient(135deg, var(--color-accent-dark), var(--color-accent-mid));
+  box-shadow: 0 0 10px var(--shadow-button);
+  color: var(--color-text);
   padding: 6px 12px;
   border: none;
   border-radius: 12px;
@@ -10,11 +10,11 @@
 
 
 .aboutBtn:hover {
-  background: linear-gradient(135deg, #836fff, #a78bfa); /* brighter on hover */
-  box-shadow: 0 0 20px rgba(138, 43, 226, 0.9), 0 0 40px rgba(138, 43, 226, 0.6);
-  
+  background: linear-gradient(135deg, var(--color-accent-bright), var(--color-accent));
+  box-shadow: 0 0 20px var(--shadow-glow-strong), 0 0 40px var(--shadow-glow-mid);
+
 }
 
 .aboutBtn:active {
-  transform: scale(0.95); /*Gives the look of a click*/
+  transform: scale(0.95);
 }

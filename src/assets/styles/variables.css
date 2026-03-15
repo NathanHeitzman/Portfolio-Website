@@ -1,0 +1,26 @@
+:root {
+  /* Backgrounds */
+  --color-bg: #1e1e2f;
+  --color-surface: #2c2c40;
+  --color-surface-nav: #2a2a3d;
+  --color-input-bg: #2b2b3d;
+
+  /* Accent / Purple scale */
+  --color-accent: #a78bfa;
+  --color-accent-mid: #7b68ee;
+  --color-accent-dark: #6a5acd;
+  --color-accent-light: #9481cc;
+  --color-accent-bright: #836fff;
+
+  /* Text */
+  --color-text: #ffffff;
+  --color-text-muted: #dcdcdc;
+  --color-text-subtle: #999;
+
+  /* Shadows / Glows */
+  --shadow-glow: rgba(138, 43, 226, 0.4);
+  --shadow-glow-mid: rgba(138, 43, 226, 0.6);
+  --shadow-glow-strong: rgba(138, 43, 226, 0.9);
+  --shadow-button: rgba(106, 90, 205, 0.7);
+  --shadow-input: rgba(167, 139, 250, 0.5);
+}

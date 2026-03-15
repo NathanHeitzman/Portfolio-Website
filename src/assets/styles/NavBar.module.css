@@ -1,10 +1,10 @@
 .navbar{
-    background-color: #2a2a3d;
-    color: #ffffff;
+    background-color: var(--color-surface-nav);
+    color: var(--color-text);
 }
 
 .navItem{
-    color: #ffffff;
+    color: var(--color-text);
     margin-right: 1.5rem;
     font-size: large;
 }
@@ -12,19 +12,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2a2a3d;
-    color: #ffffff;
+    background-color: var(--color-surface-nav);
+    color: var(--color-text);
     height: 50px;
 }
 
 .nav-Link {
-    color: #ffffff;
+    color: var(--color-text);
 }
 
 .navbarToggler {
-    border: 1px solid #ffffff;
+    border: 1px solid var(--color-text);
 }
 
 .navbarTogglerIcon {
-    filter:invert(1); /*makes the hamburger icon white*/
+    filter:invert(1);
 }
