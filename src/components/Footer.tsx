@@ -13,22 +13,22 @@ const Footer = () => {
                   <h5 className="mb-4">QUALIFICATIONS</h5>
                   <ul className="list-unstyled mb-4">
                     <li>
-                      <a href="/projects" className="text-white">
+                      <a href="/projects" className="text-white footerLink">
                         My Projects
                       </a>
                     </li>
                     <li>
-                      <a href="#!" className="text-white">
+                      <a href="#!" className="text-white footerLink">
                         Project Descriptions
                       </a>
                     </li>
                     <li>
-                      <a href="/coursework" className="text-white">
+                      <a href="/coursework" className="text-white footerLink">
                         Course Work
                       </a>
                     </li>
                     <li>
-                      <a href="about" className="text-white">
+                      <a href="about" className="text-white footerLink">
                         About Me
                       </a>
                     </li>
@@ -39,22 +39,22 @@ const Footer = () => {
                   <h5 className="mb-4">ASSISTANCE</h5>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="/contact-me" className="text-white">
+                      <a href="/contact-me" className="text-white footerLink">
                         Contact Me
                       </a>
                     </li>
                     <li>
-                      <a href="#!" className="text-white">
+                      <a href="#!" className="text-white footerLink">
                         FAQ's
                       </a>
                     </li>
                     <li>
-                      <a href="#!" className="text-white">
+                      <a href="#!" className="text-white footerLink">
                         Tech Stacks
                       </a>
                     </li>
                     <li>
-                      <a href="/about-website" className="text-white">
+                      <a href="/about-website" className="text-white footerLink">
                         About This Website
                       </a>
                     </li>
@@ -66,22 +66,22 @@ const Footer = () => {
                   <h5 className="mb-4">CAREERS</h5>
                   <ul className="list-unstyled">
                     <li>
-                      <a href="#!" className="text-white">
+                      <a href="#!" className="text-white footerLink">
                         My Career Interests
                       </a>
                     </li>
                     <li>
-                      <a href="#!" className="text-white">
+                      <a href="#!" className="text-white footerLink">
                         Work Experience
                       </a>
                     </li>
                     <li>
-                      <a href="#!" className="text-white">
+                      <a href="#!" className="text-white footerLink">
                         Volunteering
                       </a>
                     </li>
                     <li>
-                      <a href={Resume} className="text-white" download>
+                      <a href={Resume} className="text-white footerLink" download>
                         Download my Resume
                       </a>
                     </li>

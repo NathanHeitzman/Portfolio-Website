@@ -50,3 +50,8 @@
   background-color: var(--color-accent);
   color: var(--color-bg);
 }
+
+.footer :global(.footerLink:hover) {
+  text-decoration: underline;
+  text-shadow: 0 2px 6px var(--shadow-glow-strong), 0 2px 6px var(--shadow-glow-mid);
+}
