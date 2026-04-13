@@ -1,0 +1,9 @@
+.courseContainer {
+  background-color: var(--color-surface);
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.courseContainer li{
+    color:var(--color-text)
+}

@@ -21,6 +21,7 @@ const Projects = () => {
         <>
             <Navbar />
             <div className={`${styles.projectsContainer} container-fluid d-flex flex-column align-items-center`}>
+                <div className="my-3"></div>
                 <ProjectCard
                     projectImage={SongScraping}
                     projectTitle="Metadata Scraping / Automated Song Backup"
