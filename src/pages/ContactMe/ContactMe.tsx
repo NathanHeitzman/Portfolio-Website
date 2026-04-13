@@ -1,6 +1,6 @@
-import styles from "../assets/styles/ContactMe.module.css";
-import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
+import styles from "./ContactMe.module.css";
+import Navbar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const ContactMe = () => {

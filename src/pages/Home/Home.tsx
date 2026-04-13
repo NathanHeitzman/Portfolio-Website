@@ -1,14 +1,14 @@
-import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
+import Navbar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import HeadShot from "../assets/images/nathan2.jpg";
-import Button from "../components/Button";
-import icons from "../data/iconData";
-import styles from "../assets/styles/Home.module.css";
-import SkillCard from "../components/SkillCard";
+import HeadShot from "../../assets/images/nathan2.jpg";
+import Button from "../../components/Button/Button";
+import icons from "../../data/iconData";
+import styles from "./Home.module.css";
+import SkillCard from "../../components/SkillCard/SkillCard";
 
-import SongScraping from "../assets/images/song_scraping.png";
-import PaymentConfirmation from "../assets/images/paymentconfirmation.png";
+import SongScraping from "../../assets/images/song_scraping.png";
+import PaymentConfirmation from "../../assets/images/paymentconfirmation.png";
 
 const Homepage = () => {
   return (

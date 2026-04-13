@@ -1,4 +1,4 @@
-import styles from "../assets/styles/SkillCard.module.css";
+import styles from "./SkillCard.module.css";
 
 interface SkillCardProps {
   name: string;

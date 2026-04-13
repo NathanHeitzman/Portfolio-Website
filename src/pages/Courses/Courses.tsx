@@ -1,8 +1,8 @@
-import ClassData from "../data/classes.json";
-import styles from "../assets/styles/Courses.module.css";
+import ClassData from "../../data/classes.json";
+import styles from "./Courses.module.css";
 import "bootstrap/dist/css/bootstrap.min.css"
-import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
+import Navbar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 
 interface ClassDataType {
     id: number;

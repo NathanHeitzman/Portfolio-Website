@@ -1,8 +1,8 @@
-import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
+import Navbar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css"
-import styles from "../assets/styles/AboutMe.module.css";
-import PlaceholderImage from "../assets/images/placeholder.png"
+import styles from "./AboutMe.module.css";
+import PlaceholderImage from "../../assets/images/placeholder.png"
 
 const AboutMe = () => {
     return (

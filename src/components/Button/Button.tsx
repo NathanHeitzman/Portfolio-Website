@@ -1,6 +1,6 @@
 import { useNavigate, type NavigateFunction } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "../assets/styles/Button.module.css";
+import styles from "./Button.module.css";
 
 interface ButtonProps {
   text: string;

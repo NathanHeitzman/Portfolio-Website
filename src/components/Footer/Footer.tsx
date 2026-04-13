@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "../assets/styles/Footer.module.css";
-import Resume from "../assets/Nathaniel-Heitzman-Resume.pdf";
+import styles from "./Footer.module.css";
+import Resume from "../../assets/Nathaniel-Heitzman-Resume.pdf";
 const Footer = () => {
   return (
     <>

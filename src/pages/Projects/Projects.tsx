@@ -1,19 +1,19 @@
-import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
-import styles from "../assets/styles/projects.module.css";
+import Navbar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
+import styles from "./Projects.module.css";
 
-import PythonIcon from "../assets/images/icons/python.png"
-import SeleniumIcon from "../assets/images/icons/selenium.png"
-import HTML from "../assets/images/icons/html.png"
-import CSS from "../assets/images/icons/css.png"
-import TypeScript from "../assets/images/icons/typescript.png"
-import Bootstrap from "../assets/images/icons/bootstrap.png"
-import React from "../assets/images/icons/react.png"
-import Figma from "../assets/images/icons/figma.png"
+import PythonIcon from "../../assets/images/icons/python.png"
+import SeleniumIcon from "../../assets/images/icons/selenium.png"
+import HTML from "../../assets/images/icons/html.png"
+import CSS from "../../assets/images/icons/css.png"
+import TypeScript from "../../assets/images/icons/typescript.png"
+import Bootstrap from "../../assets/images/icons/bootstrap.png"
+import React from "../../assets/images/icons/react.png"
+import Figma from "../../assets/images/icons/figma.png"
 
-import SongScraping from "../assets/images/song_scraping.png"
-import PortfolioWebsite from "../assets/images/portfolio.png"
-import CsvPaymentConfirmation from "../assets/images/paymentconfirmation.png"
+import SongScraping from "../../assets/images/song_scraping.png"
+import PortfolioWebsite from "../../assets/images/portfolio.png"
+import CsvPaymentConfirmation from "../../assets/images/paymentconfirmation.png"
 
 const Projects = () => {
     return (

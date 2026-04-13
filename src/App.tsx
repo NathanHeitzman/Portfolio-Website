@@ -2,12 +2,12 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useEffect } from "react";
 import axios from "axios";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./pages/Home";
-import ContactMe from "./pages/ContactMe";
-import Projects from "./pages/Projects"
-import Courses from "./pages/Courses"
-import AboutMe from "./pages/AboutMe"
-import AboutWebsite from "./pages/AboutWebsite";
+import Home from "./pages/Home/Home";
+import ContactMe from "./pages/ContactMe/ContactMe";
+import Projects from "./pages/Projects/Projects"
+import Courses from "./pages/Courses/Courses"
+import AboutMe from "./pages/AboutMe/AboutMe"
+import AboutWebsite from "./pages/AboutWebsite/AboutWebsite";
 
 function App() {
 

@@ -1,7 +1,7 @@
-import Navbar from "../components/NavBar";
-import Footer from "../components/Footer";
+import Navbar from "../../components/NavBar/NavBar";
+import Footer from "../../components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import styles from "../assets/styles/AboutWebsite.module.css";
+import styles from "./AboutWebsite.module.css";
 function AboutWebsite() {
   return (
     <>
