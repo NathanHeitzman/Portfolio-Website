@@ -6,9 +6,10 @@ const Footer = () => {
     <>
       <div className={styles.footerContainer}>
         <div className="container-fluid p-0">
-          <footer className={`${styles.footer} text-center text-lg-start pt-4`}>
-            <div className="container-fluid p-4">
-              <div className="row">
+          <footer className={`${styles.footer} text-center pt-4`}>
+            <div className="container p-4">
+              <div className="row justify-content-center">
+                
                 <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
                   <h5 className="mb-4">QUALIFICATIONS</h5>
                   <ul className="list-unstyled mb-4">
@@ -18,18 +19,8 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#!" className="text-white footerLink">
-                        Project Descriptions
-                      </a>
-                    </li>
-                    <li>
                       <a href="/coursework" className="text-white footerLink">
                         Course Work
-                      </a>
-                    </li>
-                    <li>
-                      <a href="about" className="text-white footerLink">
-                        About Me
                       </a>
                     </li>
                   </ul>
@@ -44,16 +35,6 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#!" className="text-white footerLink">
-                        FAQ's
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" className="text-white footerLink">
-                        Tech Stacks
-                      </a>
-                    </li>
-                    <li>
                       <a href="/about-website" className="text-white footerLink">
                         About This Website
                       </a>
@@ -63,21 +44,11 @@ const Footer = () => {
                 </div>
 
                 <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                  <h5 className="mb-4">CAREERS</h5>
+                  <h5 className="mb-4">CAREER</h5>
                   <ul className="list-unstyled">
                     <li>
                       <a href="#!" className="text-white footerLink">
-                        My Career Interests
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" className="text-white footerLink">
                         Work Experience
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#!" className="text-white footerLink">
-                        Volunteering
                       </a>
                     </li>
                     <li>
@@ -89,23 +60,19 @@ const Footer = () => {
                 </div>
 
                 <div className="col-lg-3 col-md-6 mb-4 mb-lg-0">
-                  <h5 className="text-uppercase mb-4">Send me an email</h5>
-                  <div className="form-outline form-white mb-4">
-                    <input
-                      type="email"
-                      id="form5Example2"
-                      className="form-control"
-                    />
-                    <label className="form-label" htmlFor="form5Example2">
-                      Email address
-                    </label>
-                  </div>
-                  <button
-                    type="submit"
-                    className="btn btn-outline-white btn-block"
-                  >
-                    Send
-                  </button>
+                  <h5 className="mb-4">CONNECT</h5>
+                  <ul className="list-unstyled">
+                    <li>
+                      <a href="https://www.linkedin.com/in/nathaniel-heitzman/" target="_blank" rel="noopener noreferrer" className="text-white footerLink">
+                        <i className="bi bi-linkedin me-2"></i>LinkedIn
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://github.com/NathanHeitzman" target="_blank" rel="noopener noreferrer" className="text-white footerLink">
+                        <i className="bi bi-github me-2"></i>GitHub
+                      </a>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
