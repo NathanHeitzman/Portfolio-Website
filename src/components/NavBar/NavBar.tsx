@@ -10,10 +10,7 @@ const Navbar = () => {
         className={`${styles.navBar} navbar navbar-expand-md bg-body-tertiary py-0`}
       >
         <div className={`${styles.navBarContainer} container-fluid`}>
-          <Link className={`${styles.navBrand} px-2 navbar-brand`} to="/">
-            <i className="bi bi-house px-2"></i>
-          </Link>
-          <button
+<button
             className={`${styles.navBarToggler} navbar-toggler me-3`} //enables the "hamburger icon" to open navbar for smaller screens
             type="button"
             data-bs-toggle="collapse" //clicking should toggle something collapsible

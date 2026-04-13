@@ -1,16 +1,3 @@
-p{
-    color: var(--color-text);
-}
-
-.textContainer {
-    margin: 0;
-}
 .pageBody {
     padding: 20px;
-}
-.imageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid black;
 }
