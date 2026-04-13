@@ -14,30 +14,20 @@ import Figma from "../../assets/images/icons/figma.png"
 import SongScraping from "../../assets/images/song_scraping.png"
 import PortfolioWebsite from "../../assets/images/portfolio.png"
 import CsvPaymentConfirmation from "../../assets/images/paymentconfirmation.png"
+import ProjectCard from "../../components/ProjectCard/ProjectCard";
 
 const Projects = () => {
     return (
         <>
             <Navbar />
             <div className={`${styles.projectsContainer} container-fluid d-flex flex-column align-items-center`}>
-                <div className={`${styles.imageContainer}`}>
-                    <img className={`${styles.projectImage}`} src={SongScraping} alt="project 1" />
-                </div>
-                <div className={`${styles.textContainer} d-flex flex-column`}>
-                    <h3 className="align-self-center mt-3">Metadata Scraping / Automated Song Backup</h3>
-                    <p className="align-self-center p-4">
-                        I built a two-part Python automation pipeline to extract song titles and artist names 
-                        from a web-based playlist. I used Selenium to scrape the data and save it to a structured text file. 
-                        Then, I wrote a second script that automatically searched each track on YouTube, captured the top 
-                        video URL, and compiled the links into a list for batch downloading. I used this list with yt-dlp to 
-                        efficiently download the entire playlist, streamlining the process of creating offline music libraries.
-                    </p>
-                    <div className="d-flex flex-row align-items-center">
-                        <p className="px-4">Technologies Used:</p>
-                        <img className={`${styles.icon}`} src={PythonIcon} />
-                        <img className={`${styles.icon}`} src={SeleniumIcon} />
-                    </div>
-                </div>
+                <ProjectCard
+                    projectImage={SongScraping}
+                    projectTitle="Metadata Scraping / Automated Song Backup"
+                    projectDescription="This is a description"
+                    projectTechIcons={[PythonIcon,SeleniumIcon]}
+                />
+        
                 <div className={`${styles.imageContainer}`}>
                     <img className={`${styles.projectImage}`} src={CsvPaymentConfirmation} alt="project 2" />
                     <div className={`${styles.textContainer} d-flex flex-column`}>
