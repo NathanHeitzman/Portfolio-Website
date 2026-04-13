@@ -1,4 +1,4 @@
-import ClassData from "../../data/classes.json";
+import ClassData from "../../components/CourseCard/classes.json";
 import styles from "./Courses.module.css";
 import "bootstrap/dist/css/bootstrap.min.css"
 import Navbar from "../../components/NavBar/NavBar";

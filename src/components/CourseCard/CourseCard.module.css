@@ -5,5 +5,5 @@
   border-radius: 10px;
 }
 .courseContainer li{
-    color:var(--color-text)
+    color: var(--color-text);
 }
