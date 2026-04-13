@@ -77,7 +77,7 @@ const Homepage = () => {
           <div className="row g-3 justify-content-center">
             {icons.map((icon, index) => (
               <div key={index} className="col-12 col-sm-6 col-lg">
-                <SkillCard name={icon.name} src={icon.src} description={icon.description} />
+                <SkillCard name={icon.name} icon={icon.icon} color={icon.color} description={icon.description} />
               </div>
             ))}
           </div>

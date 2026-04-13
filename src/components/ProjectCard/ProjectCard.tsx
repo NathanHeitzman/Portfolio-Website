@@ -1,11 +1,17 @@
+import type { IconType } from "react-icons";
 import styles from "./ProjectCard.module.css"
 import "bootstrap/dist/css/bootstrap.min.css";
+
+interface TechIcon {
+    icon: IconType;
+    color: string;
+}
 
 interface ProjectCardProps {
     projectTitle: string,
     projectDescription: string,
     projectImage: string,
-    projectTechIcons: string[]
+    projectTechIcons: TechIcon[]
 }
 
 const ProjectCard = (props: ProjectCardProps) => {
@@ -17,8 +23,10 @@ const ProjectCard = (props: ProjectCardProps) => {
                 <p className="align-self-center p-4">{props.projectDescription}</p>
                 <div className="d-flex flex-row align-items-center">
                     <p className="px-4">Technologies Used:</p>
-                    {props.projectTechIcons.map((icon, index) => (
-                        <img key={index} className={`${styles.icon}`} src={icon} />
+                    {props.projectTechIcons.map(({ icon: Icon, color }, index) => (
+                        <div key={index} className={styles.icon}>
+                            <Icon size="100%" color={color} />
+                        </div>
                     ))}
                 </div>
             </div>
