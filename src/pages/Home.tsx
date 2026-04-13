@@ -1,4 +1,3 @@
-import { useState } from "react";
 import Navbar from "../components/NavBar";
 import Footer from "../components/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -6,14 +5,12 @@ import HeadShot from "../assets/images/nathan2.jpg";
 import Button from "../components/Button";
 import icons from "../data/iconData";
 import styles from "../assets/styles/Home.module.css";
+import SkillCard from "../components/SkillCard";
 
 import SongScraping from "../assets/images/song_scraping.png";
 import PaymentConfirmation from "../assets/images/paymentconfirmation.png";
 
 const Homepage = () => {
-  const [openPopup, setPopupState] = useState(false); //use to toggle popups
-  const [popupData, setPopupData] = useState<{ title: string } | null>(null); //default value will be null, popup data can be a string or null
-  const [popupTitle, setPopupTitle] = useState<{ title: string } | null>(null);
   return (
     <>
       <Navbar />
@@ -72,50 +69,18 @@ const Homepage = () => {
         </div>
       </div>
 
-      <div className="tech-skills  d-flex flex-column justify-content-center">
-        <h1 className="skills-header align-self-center my-2 text-white">
+      <div className="tech-skills d-flex flex-column justify-content-center">
+        <h1 className="skills-header align-self-center my-4 text-white">
           I have hands-on experience with:
         </h1>
-        {openPopup && (
-          <>
-            <div className={`${styles.popupContainer} align-self-center d-flex flex-column`}>
-              <div className={`${styles.borderTest} d-flex w-100`}>
-                <h1 className={`${styles.popupHeader} text-white`}>{popupTitle?.title}</h1>
-                <div className="exit-button-container ms-auto">
-                  <button
-                    className={styles.popupExitButton}
-                    onClick={() => {
-                      setPopupState(false);
-                      setPopupData(null); //return the popup data to nothing when closed
-                      setPopupTitle(null);
-                    }}
-                  >
-                    X
-                  </button>
-                </div>
+        <div className="container mb-5">
+          <div className="row g-3 justify-content-center">
+            {icons.map((icon, index) => (
+              <div key={index} className="col-12 col-sm-6 col-lg">
+                <SkillCard name={icon.name} src={icon.src} description={icon.description} />
               </div>
-              <p className="m-3 fs-5">{popupData?.title}</p>
-            </div>
-          </>
-        )}
-        <div className="container row g-0 align-self-center mb-5">
-          {icons.map((icon, index) => (
-            <div
-              key={index}
-              className="col-4 col-sm-3 col-md-2 col-xl-1 d-flex justify-content-center"
-            >
-              <button
-                className={styles.iconButton}
-                onClick={() => {
-                  setPopupState(true);
-                  setPopupData({ title: icon.description }); //set popup description
-                  setPopupTitle({title: icon.name}); //set popup header
-                }}
-              >
-                <img src={icon.src} className={styles.iconImage} />
-              </button>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
       <Footer />
